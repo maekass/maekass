@@ -1,5 +1,9 @@
 # Intergenerational Mobility Fund — Enhanced Proposal
 
+## Abstract
+
+The Intergenerational Mobility Fund proposes an innovative workforce development model that simultaneously addresses two critical societal challenges: youth disconnection and elder isolation in the Mid-Atlantic region. By pairing older adult mentors with young adults seeking career pathways, the Fund creates a double dividend—activating the productive capacity of 714,300 potential mentors while re-engaging 824,200 disconnected youth across Massachusetts, Washington DC, and Virginia. The seven-year, $564 million program leverages a blended capital stack including social impact bonds, WIOA funds, and philanthropic grants to deliver sector-specific training with proven mentorship support. Financial modeling demonstrates an 11.4:1 return on investment through lifetime earnings gains of $169,700 per participant, while social return on investment analysis shows a 4.2:1 ratio through public sector savings in reduced assistance, criminal justice costs, and healthcare expenditures. With projected GDP contributions of $415 million annually at steady state and a net fiscal position of +$683 million over 20 years, the Fund represents both a compelling economic opportunity and a scalable policy solution for inclusive growth in an aging society.
+
 ## Part I: Granular Market Analysis
 
 ### 1.1 Youth Addressable Market — Sub-Regional Detail
