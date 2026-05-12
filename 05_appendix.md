@@ -11,7 +11,7 @@
 | Virginia | 1,654,000 | 17.5% | 9.4% | 289,600 |
 | **Total** | **4,257,000** | | | **824,200** |
 
-*Source: youth_underemployment_by_region.csv. Analytics layer: table prepared in R/Stata from Census and BLS regional inputs.*
+*Source: youth_underemployment_by_region.csv. Analytics layer: table prepared in Python (pandas, statsmodels, scikit-learn) from Census and BLS regional inputs.*
 
 **Table A2. Older Adult Mentor Supply and Unmet Demand**
 
@@ -22,7 +22,7 @@
 | Virginia | 1,198,000 | 44.3% | 19.8% | 24.5% | 293,500 |
 | **Total** | **2,995,000** | | | | **714,300** |
 
-*Source: older_adult_isolation_by_region.csv. Analytics layer: table prepared in R/Stata from aging survey and Census inputs.*
+*Source: older_adult_isolation_by_region.csv. Analytics layer: table prepared in Python (pandas, statsmodels, scikit-learn) from aging survey and Census inputs.*
 
 **Table A3. Mentoring Impact Meta-Analysis**
 
@@ -34,7 +34,7 @@
 | Earnings at Age 25 | 15.0% | Longitudinal | 1 | 12.3% | 17.7% |
 | 12-Month Job Retention | 22.3 pp | OJJDP programs | 28 | 19.5% | 25.1% |
 
-*Source: mentoring_impact_effects.csv. Analytics layer: effect-size table prepared in R/Stata from mentoring research synthesis.*
+*Source: mentoring_impact_effects.csv. Analytics layer: effect-size table prepared in Python (pandas, statsmodels, scikit-learn) from mentoring research synthesis.*
 
 **Table A4. Wage Regression — Log-Linear Model**
 
@@ -52,7 +52,7 @@
 | R² | 0.312 | | | |
 | N | 4,200 | | | |
 
-*Source: sector_wage_progression.csv. Analytics layer: log-linear wage model estimated in R/Stata.*
+*Source: sector_wage_progression.csv. Analytics layer: log-linear wage model estimated in Python (pandas, statsmodels, scikit-learn).*
 
 **Table A5. ROI Model — Key Assumptions and Outputs**
 
@@ -66,7 +66,7 @@
 | ROI ratio | 11.4:1 | PV gain / cost |
 | Breakeven year | Year 4 | Cumulative earnings gain > cumulative cost |
 
-*Source: sector_wage_progression.csv plus mentoring_impact_effects.csv. Analytics layer: ROI model calculated in R/Stata.*
+*Source: sector_wage_progression.csv plus mentoring_impact_effects.csv. Analytics layer: ROI model calculated in Python (pandas, statsmodels, scikit-learn).*
 
 ## 5.2 New Appendix Tables
 
@@ -81,7 +81,7 @@
 | Transportation/Warehousing | 1.81 | 1.76 | 1.79 |
 | Education | 1.52 | 1.48 | 1.50 |
 
-*Source: bea_rims_multipliers.csv. Analytics layer: R/Stata from BEA RIMS II 2023 release.*
+*Source: bea_rims_multipliers.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from BEA RIMS II 2023 release.*
 
 **Table A7. Mentor-Youth Match Quality Predictors (Logistic Regression)**
 
@@ -96,7 +96,7 @@
 | Youth expressed motivation (baseline survey) | 1.89 | 1.54–2.32 | <0.001 |
 | Frequency ≥ 2×/week | 2.12 | 1.71–2.63 | <0.001 |
 
-*Source: mentor_dosage_effectiveness.csv. Analytics layer: logistic regression estimated in R/Stata.*
+*Source: mentor_dosage_effectiveness.csv. Analytics layer: logistic regression estimated in Python (pandas, statsmodels, scikit-learn).*
 
 **Table A8. Program Equity Analysis — Outcomes by Subgroup**
 
@@ -112,7 +112,7 @@
 | Female youth | 73.6 | 37.9 | 81.8 |
 | **Overall** | **71.9** | **39.9** | **80.7** |
 
-*Source: equity_analysis.csv. Analytics layer: R/Stata from program administrative data (projected from comparable programs).*
+*Source: equity_analysis.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from program administrative data (projected from comparable programs).*
 
 ---
 
@@ -121,11 +121,11 @@
 | Exhibit Type | Best Label |
 |---|---|
 | Dashboard figure | Visualized in Power BI/Tableau |
-| Descriptive table | Prepared in R/Stata |
-| Regression or ROI output | Estimated or calculated in R/Stata |
-| Policy analysis | Qualitative coding + expert elicitation in R/Stata |
-| Macro projections | VAR/ARIMA models in R/Stata; visualized in Power BI/Tableau |
-| Sensitivity / Monte Carlo | Simulated in R/Stata (10,000 draws) |
+| Descriptive table | Prepared in Python (pandas, statsmodels, scikit-learn) |
+| Regression or ROI output | Estimated or calculated in Python (pandas, statsmodels, scikit-learn) |
+| Policy analysis | Qualitative coding + expert elicitation in Python (pandas, statsmodels, scikit-learn) |
+| Macro projections | VAR/ARIMA models in Python (pandas, statsmodels, scikit-learn); visualized in Power BI/Tableau |
+| Sensitivity / Monte Carlo | Simulated in Python (pandas, statsmodels, scikit-learn) (10,000 draws) |
 
 ---
 

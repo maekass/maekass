@@ -21,7 +21,7 @@
 | Other VA | 300,000 | 17.9% | 9.8% | 20,600 |
 | **Total** | **4,257,000** | | | **824,200** |
 
-*Source: youth_underemployment_by_metro.csv. Analytics layer: table prepared in R/Stata from Census ACS 5-year estimates and BLS LAUS data, 2023–2024.*
+*Source: youth_underemployment_by_metro.csv. Analytics layer: table prepared in Python (pandas, statsmodels, scikit-learn) from Census ACS 5-year estimates and BLS LAUS data, 2023–2024.*
 
 **Table 1.1B: Youth Addressable Market by Race/Ethnicity**
 
@@ -33,7 +33,7 @@
 | Asian | 30,300 | 10,400 | 28,900 | 69,600 | 8.4% |
 | Other/Multiracial | 24,300 | 15,100 | 14,600 | 54,000 | 6.6% |
 
-*Source: youth_demographics_by_race.csv. Analytics layer: R/Stata from Census ACS microdata.*
+*Source: youth_demographics_by_race.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from Census ACS microdata.*
 
 **Table 1.1C: Youth Addressable Market by Educational Attainment**
 
@@ -45,7 +45,7 @@
 | Associate degree | 74,200 | 9.0% |
 | Bachelor's degree (underemployed) | 41,200 | 5.0% |
 
-*Source: youth_education_attainment.csv. Analytics layer: R/Stata from Census ACS.*
+*Source: youth_education_attainment.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from Census ACS.*
 
 ### 1.2 Older Adult Mentor Supply — Sub-Regional Detail
 
@@ -66,7 +66,7 @@
 | Other VA | 230,000 | 45.1% | 20.4% | 24.7% | 59,000 |
 | **Total** | **2,995,000** | | | | **714,300** |
 
-*Source: older_adult_isolation_by_metro.csv. Analytics layer: R/Stata from regional aging surveys and Census ACS.*
+*Source: older_adult_isolation_by_metro.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from regional aging surveys and Census ACS.*
 
 **Table 1.2B: Mentor Supply by Professional Background**
 
@@ -80,7 +80,7 @@
 | Technology / Engineering | 64,300 | 9.0% |
 | Other Professional | 85,700 | 12.0% |
 
-*Source: mentor_professional_background.csv. Analytics layer: R/Stata from aging survey microdata.*
+*Source: mentor_professional_background.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from aging survey microdata.*
 
 ### 1.3 Sector-Specific Training Pathways — Granular Detail
 
@@ -99,4 +99,4 @@
 | Hospitality Management | 15.50 | 22.00 | 29.00 | 11.3% | 24,500 |
 | **Weighted Average** | **19.10** | **27.40** | **35.10** | **12.2%** | **158,500** |
 
-*Source: sector_wage_progression_detailed.csv. Analytics layer: visualized in Power BI/Tableau; wage-growth model inputs estimated in R/Stata from BLS OEWS and state LMI projections.*
+*Source: sector_wage_progression_detailed.csv. Analytics layer: visualized in Power BI/Tableau; wage-growth model inputs estimated in Python (pandas, statsmodels, scikit-learn) from BLS OEWS and state LMI projections.*

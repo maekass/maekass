@@ -20,7 +20,7 @@
 | **Contingency (10%)** | 1,350 | 9.0% |
 | **Total Per Participant** | **14,850** | **100%** |
 
-*Source: unit_cost_model.csv. Analytics layer: calculated in R/Stata from comparable program benchmarks (Year Up, Per Scholas, iMentor, Experience Corps).*
+*Source: unit_cost_model.csv. Analytics layer: calculated in Python (pandas, statsmodels, scikit-learn) from comparable program benchmarks (Year Up, Per Scholas, iMentor, Experience Corps).*
 
 ## 2.2 Scale-Up Cost Projections
 
@@ -37,7 +37,7 @@
 | Year 7 | 10,000 | 105.00 | 43.50 | 148.50 | 564.31 |
 | **Total (7 years)** | **38,000** | **399.00** | **165.31** | **564.31** | |
 
-*Source: scale_up_budget.csv. Analytics layer: calculated in R/Stata. Assumes 10% efficiency gain from Year 4 onward via economies of scale.*
+*Source: scale_up_budget.csv. Analytics layer: calculated in Python (pandas, statsmodels, scikit-learn). Assumes 10% efficiency gain from Year 4 onward via economies of scale.*
 
 ## 2.3 Return on Investment (ROI) Model
 
@@ -49,7 +49,7 @@
 | Base Case (median) | 7,800 | 35 | 3.0% | 169,700 |
 | Optimistic (90th pctile) | 12,500 | 35 | 3.0% | 272,000 |
 
-*Source: lifetime_earnings_model.csv. Analytics layer: estimated in R/Stata using log-linear wage model with mentoring effect sizes from Table A3.*
+*Source: lifetime_earnings_model.csv. Analytics layer: estimated in Python (pandas, statsmodels, scikit-learn) using log-linear wage model with mentoring effect sizes from Table A3.*
 
 **Table 2.3B: Aggregate ROI — 7-Year Cohort**
 
@@ -62,7 +62,7 @@
 | **ROI ratio** | **6.2:1** | **11.4:1** | **18.3:1** |
 | Breakeven year | Year 6 | Year 4 | Year 3 |
 
-*Source: aggregate_roi_model.csv. Analytics layer: calculated in R/Stata.*
+*Source: aggregate_roi_model.csv. Analytics layer: calculated in Python (pandas, statsmodels, scikit-learn).*
 
 ## 2.4 Social Return on Investment (SROI)
 
@@ -78,7 +78,7 @@
 | Reduced elder healthcare costs (social engagement) | 2,100 | NIA, AARP studies |
 | **Total annual public value per pair** | **12,550** | |
 
-*Source: sroi_components.csv. Analytics layer: calculated in R/Stata from federal and state administrative data benchmarks.*
+*Source: sroi_components.csv. Analytics layer: calculated in Python (pandas, statsmodels, scikit-learn) from federal and state administrative data benchmarks.*
 
 **Table 2.4B: Aggregate SROI — 7-Year Horizon**
 
@@ -89,7 +89,7 @@
 | **SROI ratio** | **4.2:1** |
 | Net public benefit ($M) | 1,821 |
 
-*Source: aggregate_sroi_model.csv. Analytics layer: calculated in R/Stata.*
+*Source: aggregate_sroi_model.csv. Analytics layer: calculated in Python (pandas, statsmodels, scikit-learn).*
 
 ## 2.5 Pay-for-Success (PFS) / Outcomes-Based Financing Structure
 
@@ -107,7 +107,7 @@
 | **Success payment cap** | 110% of per-participant cost ($16,335) |
 | **Repayment trigger** | ≥ 2 of 3 outcome metrics met at p < 0.05 |
 
-*Source: pfs_structure.csv. Analytics layer: R/Stata for power calculations and outcome threshold modeling.*
+*Source: pfs_structure.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) for power calculations and outcome threshold modeling.*
 
 ## 2.6 Blended Capital Stack
 
@@ -125,7 +125,7 @@
 | Medicaid 1115 waiver (elder component) | 24.3 | 4.3% | Federal waiver | HCBS-adjacent |
 | **Total** | **564.3** | **100%** | | |
 
-*Source: blended_capital_stack.csv. Analytics layer: calculated in R/Stata from federal register, state budget documents, and CDFI fund data.*
+*Source: blended_capital_stack.csv. Analytics layer: calculated in Python (pandas, statsmodels, scikit-learn) from federal register, state budget documents, and CDFI fund data.*
 
 ## 2.7 Sensitivity Analysis — Key Financial Levers
 
@@ -137,7 +137,7 @@
 | **Cost: Base** | 7.8:1 | 11.4:1 | 18.3:1 |
 | **Cost: +20%** | 6.5:1 | 9.5:1 | 15.3:1 |
 
-*Source: sensitivity_analysis.csv. Analytics layer: calculated in R/Stata using Monte Carlo simulation (n=10,000 draws from triangular distributions).*
+*Source: sensitivity_analysis.csv. Analytics layer: calculated in Python (pandas, statsmodels, scikit-learn) using Monte Carlo simulation (n=10,000 draws from triangular distributions).*
 
 ## 2.8 Intergenerational Wealth Transfer Model
 
@@ -152,4 +152,4 @@
 | Reduced youth debt / credit improvement | 600 | 228 |
 | **Total intergenerational wealth effect** | **12,500** | **4,750** |
 
-*Source: wealth_transfer_model.csv. Analytics layer: calculated in R/Stata from PSID and HRS longitudinal data.*
+*Source: wealth_transfer_model.csv. Analytics layer: calculated in Python (pandas, statsmodels, scikit-learn) from PSID and HRS longitudinal data.*

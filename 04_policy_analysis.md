@@ -17,7 +17,7 @@
 | Older Americans Act (OAA) | Senior services | Title III-E National Family Caregiver Support | 0.2 |
 | Every Student Succeeds Act (ESSA) | Youth development | Title IV-A Student Support and Academic Enrichment | 1.2 |
 
-*Source: federal_policy_alignment.csv. Analytics layer: R/Stata from federal register, appropriations bills, and agency guidance documents.*
+*Source: federal_policy_alignment.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from federal register, appropriations bills, and agency guidance documents.*
 
 ### 4.1B: Federal Policy Risk Assessment
 
@@ -29,7 +29,7 @@
 | CRA modernization (new rulemaking) | Medium | Low-Positive | Position as CRA-qualified across lending, investment, and service tests |
 | Medicaid work requirements / waiver restrictions | Low-Medium | Low | Elder component is HCBS-adjacent, not Medicaid-dependent |
 
-*Source: federal_policy_risk_matrix.csv. Analytics layer: R/Stata qualitative coding with expert elicitation weights.*
+*Source: federal_policy_risk_matrix.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) qualitative coding with expert elicitation weights.*
 
 ## 4.2 State-Level Policy Analysis
 
@@ -44,7 +44,7 @@
 | **Governor's FY26 Budget** | Proposed $58.1B; workforce line items | Advocate for dedicated intergenerational line item |
 | **MA Apprenticeship Tax Credit** | $4,800 per apprentice | Apply to mentor-supported apprenticeship model |
 
-*Source: ma_state_policy.csv. Analytics layer: R/Stata from MA General Court docket and Executive Office of Administration and Finance.*
+*Source: ma_state_policy.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from MA General Court docket and Executive Office of Administration and Finance.*
 
 ### 4.2B: Washington DC
 
@@ -56,7 +56,7 @@
 | **DC Paid Family Leave** | Universal paid leave | Mentor leave provision (exploratory) |
 | **Mayor's FY26 Budget** | Proposed $21B | Dedicated intergenerational pilot in WIC budget |
 
-*Source: dc_state_policy.csv. Analytics layer: R/Stata from DC Council legislative tracker and CFO budget documents.*
+*Source: dc_state_policy.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from DC Council legislative tracker and CFO budget documents.*
 
 ### 4.2C: Virginia
 
@@ -68,7 +68,7 @@
 | **GO Virginia** | Regional economic development | Cross-region intergenerational workforce initiative |
 | **Governor's Budget** | Biennial; workforce investments | Advocate for intergenerational pilot in next biennium |
 
-*Source: va_state_policy.csv. Analytics layer: R/Stata from VA LIS bill tracking and DPB budget documents.*
+*Source: va_state_policy.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from VA LIS bill tracking and DPB budget documents.*
 
 ## 4.3 Policy Design Proposals
 
@@ -85,7 +85,7 @@
 | **Sec. 7 — Appropriations** | Authorizes $50M/year for 5 years (state-level); scaled for federal version |
 | **Sec. 8 — Evaluation** | Mandates independent evaluation with quasi-experimental design |
 
-*Source: model_legislation.csv. Analytics layer: R/Stata for fiscal note estimation and power analysis.*
+*Source: model_legislation.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) for fiscal note estimation and power analysis.*
 
 ### 4.3B: Administrative / Executive Actions (No Legislation Required)
 
@@ -98,7 +98,7 @@
 | Include social isolation in CMS quality measures | CMS | 18 months | Creates healthcare cost rationale |
 | Add intergenerational metrics to WIOA common measures | DOL-ETA | 12 months | Standardizes outcomes reporting |
 
-*Source: administrative_actions.csv. Analytics layer: R/Stata for regulatory impact analysis.*
+*Source: administrative_actions.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) for regulatory impact analysis.*
 
 ## 4.4 Comparative Policy Analysis — What Works Elsewhere
 
@@ -114,7 +114,7 @@
 | **UK — National Citizen Service** | Youth social action + mentoring | Improved wellbeing and employability | Youth-adult bridging model |
 | **Singapore — Intergenerational Learning Program** | Co-located eldercare/childcare | Reduced ageism; improved child development | Place-based intergenerational design |
 
-*Source: comparative_policy_evidence.csv. Analytics layer: R/Stata for meta-analytic synthesis of effect sizes across programs.*
+*Source: comparative_policy_evidence.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) for meta-analytic synthesis of effect sizes across programs.*
 
 ## 4.5 Stakeholder Mapping and Political Economy
 
@@ -133,7 +133,7 @@
 | Youth Advocacy Organizations | High | Low-Medium | Champion | Lived-experience voice; co-design |
 | AARP / Elder Advocacy | High | High | Supportive | Policy advocacy; member mobilization |
 
-*Source: stakeholder_mapping.csv. Analytics layer: R/Stata for network analysis and power-interest grid visualization.*
+*Source: stakeholder_mapping.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) for network analysis and power-interest grid visualization.*
 
 ## 4.6 Policy Sequencing and Implementation Roadmap
 
@@ -148,4 +148,4 @@
 | **Phase 4: Institutionalization** | Years 5–7 | Permanent funding streams; federal replication | Entitlement integration; CRA permanent guidance |
 | **Phase 5: Replication** | Years 7+ | National expansion; technical assistance hub | Federal program authorization; TA center |
 
-*Source: policy_sequencing_roadmap.csv. Analytics layer: R/Stata for Gantt chart visualization and critical path analysis.*
+*Source: policy_sequencing_roadmap.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) for Gantt chart visualization and critical path analysis.*

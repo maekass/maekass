@@ -12,7 +12,7 @@
 | 2029 (proj.) | 64.1 | 68.7 | 63.5 | 61.8 |
 | 2034 (proj.) | 63.2 | 67.4 | 62.4 | 60.9 |
 
-*Source: lfpr_projections.csv. Analytics layer: visualized in Power BI/Tableau; projections estimated in R/Stata from BLS and CBO long-term outlook.*
+*Source: lfpr_projections.csv. Analytics layer: visualized in Power BI/Tableau; projections estimated in Python (pandas, statsmodels, scikit-learn) from BLS and CBO long-term outlook.*
 
 **Table 3.1B: Skills Gap Analysis — Top 10 In-Demand Occupations with Shortages**
 
@@ -29,7 +29,7 @@
 | CNC Machinists | 3,600 | 2,300 | 1,300 | 26.80 |
 | Cybersecurity Analysts | 4,100 | 2,400 | 1,700 | 52.60 |
 
-*Source: skills_gap_analysis.csv. Analytics layer: R/Stata from BLS OEWS, state LMI, and Burning Glass/Lightcast data.*
+*Source: skills_gap_analysis.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from BLS OEWS, state LMI, and Burning Glass/Lightcast data.*
 
 ## 3.2 GDP and Fiscal Impact
 
@@ -44,7 +44,7 @@
 | **Annual GDP contribution ($M)** | **196.6** | **415.0** | **415.0** |
 | Cumulative GDP contribution ($M) | 590 | 2,490 | 6,640 |
 
-*Source: gdp_impact_model.csv. Analytics layer: calculated in R/Stata using BEA RIMS II regional multipliers.*
+*Source: gdp_impact_model.csv. Analytics layer: calculated in Python (pandas, statsmodels, scikit-learn) using BEA RIMS II regional multipliers.*
 
 **Table 3.2B: Fiscal Impact — Federal, State, and Local**
 
@@ -58,7 +58,7 @@
 | **Total fiscal revenue gain** | **96.0** | **1,248** |
 | **Net fiscal position (revenue – cost)** | **+$683M** | |
 
-*Source: fiscal_impact_model.csv. Analytics layer: calculated in R/Stata from IRS SOI, state DOR data, and CBO effective tax rate assumptions.*
+*Source: fiscal_impact_model.csv. Analytics layer: calculated in Python (pandas, statsmodels, scikit-learn) from IRS SOI, state DOR data, and CBO effective tax rate assumptions.*
 
 ## 3.3 Demographic and Dependency Ratio Analysis
 
@@ -71,7 +71,7 @@
 | Virginia | 26.8 | 30.5 | 36.4 | 40.1 |
 | United States | 28.5 | 32.8 | 38.1 | 41.6 |
 
-*Source: dependency_ratio_projections.csv. Analytics layer: R/Stata from Census Bureau 2023 National Population Projections.*
+*Source: dependency_ratio_projections.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from Census Bureau 2023 National Population Projections.*
 
 **Implication:** As dependency ratios rise, programs that activate older adults as productive contributors (mentors) while boosting youth labor force attachment create a **double dividend** — reducing the effective dependency burden from both ends of the age distribution.
 
@@ -88,7 +88,7 @@
 | Lost tax revenue (all levels) | 5,100 | 1,681 |
 | **Total annual cost of inaction** | **31,600** | **10,413** |
 
-*Source: cost_of_inaction.csv. Analytics layer: calculated in R/Stata from multiple federal administrative datasets (CPS ASEC, SNAP QC, NCVS, MEPS).*
+*Source: cost_of_inaction.csv. Analytics layer: calculated in Python (pandas, statsmodels, scikit-learn) from multiple federal administrative datasets (CPS ASEC, SNAP QC, NCVS, MEPS).*
 
 ## 3.5 Macroeconomic Scenario Analysis
 
@@ -101,7 +101,7 @@
 | **Mild recession (2027)** | GDP -0.5%, UE 6.2% | 8.2:1 | 3.1:1 | Year 5 |
 | **Strong growth** | GDP +3.0%, UE 3.2% | 15.1:1 | 5.4:1 | Year 3 |
 
-*Source: macro_scenario_analysis.csv. Analytics layer: R/Stata using VAR model of regional labor market with CBO and FRB projections as exogenous inputs.*
+*Source: macro_scenario_analysis.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) using VAR model of regional labor market with CBO and FRB projections as exogenous inputs.*
 
 ## 3.6 Inflation and Real Wage Effects
 
@@ -114,4 +114,4 @@
 | Elevated (3.5%) | 29.80 | 3.5% | 26.90 | 40.8% |
 | Stagflation (4.5%) | 30.20 | 4.5% | 26.45 | 38.5% |
 
-*Source: inflation_scenario_model.csv. Analytics layer: R/Stata. Note: nominal wages partially adjust to inflation with ~0.4 elasticity based on historical BLS data.*
+*Source: inflation_scenario_model.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn). Note: nominal wages partially adjust to inflation with ~0.4 elasticity based on historical BLS data.*

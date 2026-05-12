@@ -21,7 +21,7 @@
 | Other VA | 300,000 | 17.9% | 9.8% | 20,600 |
 | **Total** | **4,257,000** | | | **824,200** |
 
-*Source: youth_underemployment_by_metro.csv. Analytics layer: table prepared in R/Stata from Census ACS 5-year estimates and BLS LAUS data, 2023–2024.*
+*Source: youth_underemployment_by_metro.csv. Analytics layer: table prepared in Python (pandas, statsmodels, scikit-learn) from Census ACS 5-year estimates and BLS LAUS data, 2023–2024.*
 
 **Table 1.1B: Youth Addressable Market by Race/Ethnicity**
 
@@ -33,7 +33,7 @@
 | Asian | 30,300 | 10,400 | 28,900 | 69,600 | 8.4% |
 | Other/Multiracial | 24,300 | 15,100 | 14,600 | 54,000 | 6.6% |
 
-*Source: youth_demographics_by_race.csv. Analytics layer: R/Stata from Census ACS microdata.*
+*Source: youth_demographics_by_race.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from Census ACS microdata.*
 
 **Table 1.1C: Youth Addressable Market by Educational Attainment**
 
@@ -45,7 +45,7 @@
 | Associate degree | 74,200 | 9.0% |
 | Bachelor's degree (underemployed) | 41,200 | 5.0% |
 
-*Source: youth_education_attainment.csv. Analytics layer: R/Stata from Census ACS.*
+*Source: youth_education_attainment.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from Census ACS.*
 
 ### 1.2 Older Adult Mentor Supply — Sub-Regional Detail
 
@@ -66,7 +66,7 @@
 | Other VA | 230,000 | 45.1% | 20.4% | 24.7% | 59,000 |
 | **Total** | **2,995,000** | | | | **714,300** |
 
-*Source: older_adult_isolation_by_metro.csv. Analytics layer: R/Stata from regional aging surveys and Census ACS.*
+*Source: older_adult_isolation_by_metro.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from regional aging surveys and Census ACS.*
 
 **Table 1.2B: Mentor Supply by Professional Background**
 
@@ -80,7 +80,7 @@
 | Technology / Engineering | 64,300 | 9.0% |
 | Other Professional | 85,700 | 12.0% |
 
-*Source: mentor_professional_background.csv. Analytics layer: R/Stata from aging survey microdata.*
+*Source: mentor_professional_background.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from aging survey microdata.*
 
 ### 1.3 Sector-Specific Training Pathways — Granular Detail
 
@@ -99,7 +99,7 @@
 | Hospitality Management | 15.50 | 22.00 | 29.00 | 11.3% | 24,500 |
 | **Weighted Average** | **19.10** | **27.40** | **35.10** | **12.2%** | **158,500** |
 
-*Source: sector_wage_progression_detailed.csv. Analytics layer: visualized in Power BI/Tableau; wage-growth model inputs estimated in R/Stata from BLS OEWS and state LMI projections.*
+*Source: sector_wage_progression_detailed.csv. Analytics layer: visualized in Power BI/Tableau; wage-growth model inputs estimated in Python (pandas, statsmodels, scikit-learn) from BLS OEWS and state LMI projections.*
 
 ---
 
@@ -125,7 +125,7 @@
 | **Contingency (10%)** | 1,350 | 9.0% |
 | **Total Per Participant** | **14,850** | **100%** |
 
-*Source: unit_cost_model.csv. Analytics layer: calculated in R/Stata from comparable program benchmarks (Year Up, Per Scholas, iMentor, Experience Corps).*
+*Source: unit_cost_model.csv. Analytics layer: calculated in Python (pandas, statsmodels, scikit-learn) from comparable program benchmarks (Year Up, Per Scholas, iMentor, Experience Corps).*
 
 ### 2.2 Scale-Up Cost Projections
 
@@ -142,7 +142,7 @@
 | Year 7 | 10,000 | 105.00 | 43.50 | 148.50 | 564.31 |
 | **Total (7 years)** | **38,000** | **399.00** | **165.31** | **564.31** | |
 
-*Source: scale_up_budget.csv. Analytics layer: calculated in R/Stata. Assumes 10% efficiency gain from Year 4 onward via economies of scale.*
+*Source: scale_up_budget.csv. Analytics layer: calculated in Python (pandas, statsmodels, scikit-learn). Assumes 10% efficiency gain from Year 4 onward via economies of scale.*
 
 ### 2.3 Return on Investment (ROI) Model
 
@@ -154,7 +154,7 @@
 | Base Case (median) | 7,800 | 35 | 3.0% | 169,700 |
 | Optimistic (90th pctile) | 12,500 | 35 | 3.0% | 272,000 |
 
-*Source: lifetime_earnings_model.csv. Analytics layer: estimated in R/Stata using log-linear wage model with mentoring effect sizes from Table A3.*
+*Source: lifetime_earnings_model.csv. Analytics layer: estimated in Python (pandas, statsmodels, scikit-learn) using log-linear wage model with mentoring effect sizes from Table A3.*
 
 **Table 2.3B: Aggregate ROI — 7-Year Cohort**
 
@@ -167,7 +167,7 @@
 | **ROI ratio** | **6.2:1** | **11.4:1** | **18.3:1** |
 | Breakeven year | Year 6 | Year 4 | Year 3 |
 
-*Source: aggregate_roi_model.csv. Analytics layer: calculated in R/Stata.*
+*Source: aggregate_roi_model.csv. Analytics layer: calculated in Python (pandas, statsmodels, scikit-learn).*
 
 ### 2.4 Social Return on Investment (SROI)
 
@@ -183,7 +183,7 @@
 | Reduced elder healthcare costs (social engagement) | 2,100 | NIA, AARP studies |
 | **Total annual public value per pair** | **12,550** | |
 
-*Source: sroi_components.csv. Analytics layer: calculated in R/Stata from federal and state administrative data benchmarks.*
+*Source: sroi_components.csv. Analytics layer: calculated in Python (pandas, statsmodels, scikit-learn) from federal and state administrative data benchmarks.*
 
 **Table 2.4B: Aggregate SROI — 7-Year Horizon**
 
@@ -194,7 +194,7 @@
 | **SROI ratio** | **4.2:1** |
 | Net public benefit ($M) | 1,821 |
 
-*Source: aggregate_sroi_model.csv. Analytics layer: calculated in R/Stata.*
+*Source: aggregate_sroi_model.csv. Analytics layer: calculated in Python (pandas, statsmodels, scikit-learn).*
 
 ### 2.5 Pay-for-Success (PFS) / Outcomes-Based Financing Structure
 
@@ -212,7 +212,7 @@
 | **Success payment cap** | 110% of per-participant cost ($16,335) |
 | **Repayment trigger** | ≥ 2 of 3 outcome metrics met at p < 0.05 |
 
-*Source: pfs_structure.csv. Analytics layer: R/Stata for power calculations and outcome threshold modeling.*
+*Source: pfs_structure.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) for power calculations and outcome threshold modeling.*
 
 ### 2.6 Blended Capital Stack
 
@@ -230,7 +230,7 @@
 | Medicaid 1115 waiver (elder component) | 24.3 | 4.3% | Federal waiver | HCBS-adjacent |
 | **Total** | **564.3** | **100%** | | |
 
-*Source: blended_capital_stack.csv. Analytics layer: calculated in R/Stata from federal register, state budget documents, and CDFI fund data.*
+*Source: blended_capital_stack.csv. Analytics layer: calculated in Python (pandas, statsmodels, scikit-learn) from federal register, state budget documents, and CDFI fund data.*
 
 ### 2.7 Sensitivity Analysis — Key Financial Levers
 
@@ -242,7 +242,7 @@
 | **Cost: Base** | 7.8:1 | 11.4:1 | 18.3:1 |
 | **Cost: +20%** | 6.5:1 | 9.5:1 | 15.3:1 |
 
-*Source: sensitivity_analysis.csv. Analytics layer: calculated in R/Stata using Monte Carlo simulation (n=10,000 draws from triangular distributions).*
+*Source: sensitivity_analysis.csv. Analytics layer: calculated in Python (pandas, statsmodels, scikit-learn) using Monte Carlo simulation (n=10,000 draws from triangular distributions).*
 
 ### 2.8 Intergenerational Wealth Transfer Model
 
@@ -257,7 +257,7 @@
 | Reduced youth debt / credit improvement | 600 | 228 |
 | **Total intergenerational wealth effect** | **12,500** | **4,750** |
 
-*Source: wealth_transfer_model.csv. Analytics layer: calculated in R/Stata from PSID and HRS longitudinal data.*
+*Source: wealth_transfer_model.csv. Analytics layer: calculated in Python (pandas, statsmodels, scikit-learn) from PSID and HRS longitudinal data.*
 
 ---
 
@@ -275,7 +275,7 @@
 | 2029 (proj.) | 64.1 | 68.7 | 63.5 | 61.8 |
 | 2034 (proj.) | 63.2 | 67.4 | 62.4 | 60.9 |
 
-*Source: lfpr_projections.csv. Analytics layer: visualized in Power BI/Tableau; projections estimated in R/Stata from BLS and CBO long-term outlook.*
+*Source: lfpr_projections.csv. Analytics layer: visualized in Power BI/Tableau; projections estimated in Python (pandas, statsmodels, scikit-learn) from BLS and CBO long-term outlook.*
 
 **Table 3.1B: Skills Gap Analysis — Top 10 In-Demand Occupations with Shortages**
 
@@ -292,7 +292,7 @@
 | CNC Machinists | 3,600 | 2,300 | 1,300 | 26.80 |
 | Cybersecurity Analysts | 4,100 | 2,400 | 1,700 | 52.60 |
 
-*Source: skills_gap_analysis.csv. Analytics layer: R/Stata from BLS OEWS, state LMI, and Burning Glass/Lightcast data.*
+*Source: skills_gap_analysis.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from BLS OEWS, state LMI, and Burning Glass/Lightcast data.*
 
 ### 3.2 GDP and Fiscal Impact
 
@@ -307,7 +307,7 @@
 | **Annual GDP contribution ($M)** | **196.6** | **415.0** | **415.0** |
 | Cumulative GDP contribution ($M) | 590 | 2,490 | 6,640 |
 
-*Source: gdp_impact_model.csv. Analytics layer: calculated in R/Stata using BEA RIMS II regional multipliers.*
+*Source: gdp_impact_model.csv. Analytics layer: calculated in Python (pandas, statsmodels, scikit-learn) using BEA RIMS II regional multipliers.*
 
 **Table 3.2B: Fiscal Impact — Federal, State, and Local**
 
@@ -321,7 +321,7 @@
 | **Total fiscal revenue gain** | **96.0** | **1,248** |
 | **Net fiscal position (revenue – cost)** | **+$683M** | |
 
-*Source: fiscal_impact_model.csv. Analytics layer: calculated in R/Stata from IRS SOI, state DOR data, and CBO effective tax rate assumptions.*
+*Source: fiscal_impact_model.csv. Analytics layer: calculated in Python (pandas, statsmodels, scikit-learn) from IRS SOI, state DOR data, and CBO effective tax rate assumptions.*
 
 ### 3.3 Demographic and Dependency Ratio Analysis
 
@@ -334,7 +334,7 @@
 | Virginia | 26.8 | 30.5 | 36.4 | 40.1 |
 | United States | 28.5 | 32.8 | 38.1 | 41.6 |
 
-*Source: dependency_ratio_projections.csv. Analytics layer: R/Stata from Census Bureau 2023 National Population Projections.*
+*Source: dependency_ratio_projections.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from Census Bureau 2023 National Population Projections.*
 
 **Implication:** As dependency ratios rise, programs that activate older adults as productive contributors (mentors) while boosting youth labor force attachment create a **double dividend** — reducing the effective dependency burden from both ends of the age distribution.
 
@@ -351,7 +351,7 @@
 | Lost tax revenue (all levels) | 5,100 | 1,681 |
 | **Total annual cost of inaction** | **31,600** | **10,413** |
 
-*Source: cost_of_inaction.csv. Analytics layer: calculated in R/Stata from multiple federal administrative datasets (CPS ASEC, SNAP QC, NCVS, MEPS).*
+*Source: cost_of_inaction.csv. Analytics layer: calculated in Python (pandas, statsmodels, scikit-learn) from multiple federal administrative datasets (CPS ASEC, SNAP QC, NCVS, MEPS).*
 
 ### 3.5 Macroeconomic Scenario Analysis
 
@@ -364,7 +364,7 @@
 | **Mild recession (2027)** | GDP -0.5%, UE 6.2% | 8.2:1 | 3.1:1 | Year 5 |
 | **Strong growth** | GDP +3.0%, UE 3.2% | 15.1:1 | 5.4:1 | Year 3 |
 
-*Source: macro_scenario_analysis.csv. Analytics layer: R/Stata using VAR model of regional labor market with CBO and FRB projections as exogenous inputs.*
+*Source: macro_scenario_analysis.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) using VAR model of regional labor market with CBO and FRB projections as exogenous inputs.*
 
 ### 3.6 Inflation and Real Wage Effects
 
@@ -377,7 +377,7 @@
 | Elevated (3.5%) | 29.80 | 3.5% | 26.90 | 40.8% |
 | Stagflation (4.5%) | 30.20 | 4.5% | 26.45 | 38.5% |
 
-*Source: inflation_scenario_model.csv. Analytics layer: R/Stata. Note: nominal wages partially adjust to inflation with ~0.4 elasticity based on historical BLS data.*
+*Source: inflation_scenario_model.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn). Note: nominal wages partially adjust to inflation with ~0.4 elasticity based on historical BLS data.*
 
 ---
 
@@ -400,7 +400,7 @@
 | Older Americans Act (OAA) | Senior services | Title III-E National Family Caregiver Support | 0.2 |
 | Every Student Succeeds Act (ESSA) | Youth development | Title IV-A Student Support and Academic Enrichment | 1.2 |
 
-*Source: federal_policy_alignment.csv. Analytics layer: R/Stata from federal register, appropriations bills, and agency guidance documents.*
+*Source: federal_policy_alignment.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from federal register, appropriations bills, and agency guidance documents.*
 
 **Table 4.1B: Federal Policy Risk Assessment**
 
@@ -412,7 +412,7 @@
 | CRA modernization (new rulemaking) | Medium | Low-Positive | Position as CRA-qualified across lending, investment, and service tests |
 | Medicaid work requirements / waiver restrictions | Low-Medium | Low | Elder component is HCBS-adjacent, not Medicaid-dependent |
 
-*Source: federal_policy_risk_matrix.csv. Analytics layer: R/Stata qualitative coding with expert elicitation weights.*
+*Source: federal_policy_risk_matrix.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) qualitative coding with expert elicitation weights.*
 
 ### 4.2 State-Level Policy Analysis
 
@@ -427,7 +427,7 @@
 | **Governor's FY26 Budget** | Proposed $58.1B; workforce line items | Advocate for dedicated intergenerational line item |
 | **MA Apprenticeship Tax Credit** | $4,800 per apprentice | Apply to mentor-supported apprenticeship model |
 
-*Source: ma_state_policy.csv. Analytics layer: R/Stata from MA General Court docket and Executive Office of Administration and Finance.*
+*Source: ma_state_policy.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from MA General Court docket and Executive Office of Administration and Finance.*
 
 **Table 4.2B: Washington DC**
 
@@ -439,7 +439,7 @@
 | **DC Paid Family Leave** | Universal paid leave | Mentor leave provision (exploratory) |
 | **Mayor's FY26 Budget** | Proposed $21B | Dedicated intergenerational pilot in WIC budget |
 
-*Source: dc_state_policy.csv. Analytics layer: R/Stata from DC Council legislative tracker and CFO budget documents.*
+*Source: dc_state_policy.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from DC Council legislative tracker and CFO budget documents.*
 
 **Table 4.2C: Virginia**
 
@@ -451,7 +451,7 @@
 | **GO Virginia** | Regional economic development | Cross-region intergenerational workforce initiative |
 | **Governor's Budget** | Biennial; workforce investments | Advocate for intergenerational pilot in next biennium |
 
-*Source: va_state_policy.csv. Analytics layer: R/Stata from VA LIS bill tracking and DPB budget documents.*
+*Source: va_state_policy.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from VA LIS bill tracking and DPB budget documents.*
 
 ### 4.3 Policy Design Proposals
 
@@ -468,7 +468,7 @@
 | **Sec. 7 — Appropriations** | Authorizes $50M/year for 5 years (state-level); scaled for federal version |
 | **Sec. 8 — Evaluation** | Mandates independent evaluation with quasi-experimental design |
 
-*Source: model_legislation.csv. Analytics layer: R/Stata for fiscal note estimation and power analysis.*
+*Source: model_legislation.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) for fiscal note estimation and power analysis.*
 
 **Table 4.3B: Administrative / Executive Actions (No Legislation Required)**
 
@@ -481,7 +481,7 @@
 | Include social isolation in CMS quality measures | CMS | 18 months | Creates healthcare cost rationale |
 | Add intergenerational metrics to WIOA common measures | DOL-ETA | 12 months | Standardizes outcomes reporting |
 
-*Source: administrative_actions.csv. Analytics layer: R/Stata for regulatory impact analysis.*
+*Source: administrative_actions.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) for regulatory impact analysis.*
 
 ### 4.4 Comparative Policy Analysis — What Works Elsewhere
 
@@ -497,7 +497,7 @@
 | **UK — National Citizen Service** | Youth social action + mentoring | Improved wellbeing and employability | Youth-adult bridging model |
 | **Singapore — Intergenerational Learning Program** | Co-located eldercare/childcare | Reduced ageism; improved child development | Place-based intergenerational design |
 
-*Source: comparative_policy_evidence.csv. Analytics layer: R/Stata for meta-analytic synthesis of effect sizes across programs.*
+*Source: comparative_policy_evidence.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) for meta-analytic synthesis of effect sizes across programs.*
 
 ### 4.5 Stakeholder Mapping and Political Economy
 
@@ -516,7 +516,7 @@
 | Youth Advocacy Organizations | High | Low-Medium | Champion | Lived-experience voice; co-design |
 | AARP / Elder Advocacy | High | High | Supportive | Policy advocacy; member mobilization |
 
-*Source: stakeholder_mapping.csv. Analytics layer: R/Stata for network analysis and power-interest grid visualization.*
+*Source: stakeholder_mapping.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) for network analysis and power-interest grid visualization.*
 
 ### 4.6 Policy Sequencing and Implementation Roadmap
 
@@ -531,7 +531,7 @@
 | **Phase 4: Institutionalization** | Years 5–7 | Permanent funding streams; federal replication | Entitlement integration; CRA permanent guidance |
 | **Phase 5: Replication** | Years 7+ | National expansion; technical assistance hub | Federal program authorization; TA center |
 
-*Source: policy_sequencing_roadmap.csv. Analytics layer: R/Stata for Gantt chart visualization and critical path analysis.*
+*Source: policy_sequencing_roadmap.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) for Gantt chart visualization and critical path analysis.*
 
 ---
 
@@ -548,7 +548,7 @@
 | Virginia | 1,654,000 | 17.5% | 9.4% | 289,600 |
 | **Total** | **4,257,000** | | | **824,200** |
 
-*Source: youth_underemployment_by_region.csv. Analytics layer: table prepared in R/Stata from Census and BLS regional inputs.*
+*Source: youth_underemployment_by_region.csv. Analytics layer: table prepared in Python (pandas, statsmodels, scikit-learn) from Census and BLS regional inputs.*
 
 **Table A2. Older Adult Mentor Supply and Unmet Demand**
 
@@ -559,7 +559,7 @@
 | Virginia | 1,198,000 | 44.3% | 19.8% | 24.5% | 293,500 |
 | **Total** | **2,995,000** | | | | **714,300** |
 
-*Source: older_adult_isolation_by_region.csv. Analytics layer: table prepared in R/Stata from aging survey and Census inputs.*
+*Source: older_adult_isolation_by_region.csv. Analytics layer: table prepared in Python (pandas, statsmodels, scikit-learn) from aging survey and Census inputs.*
 
 **Table A3. Mentoring Impact Meta-Analysis**
 
@@ -571,7 +571,7 @@
 | Earnings at Age 25 | 15.0% | Longitudinal | 1 | 12.3% | 17.7% |
 | 12-Month Job Retention | 22.3 pp | OJJDP programs | 28 | 19.5% | 25.1% |
 
-*Source: mentoring_impact_effects.csv. Analytics layer: effect-size table prepared in R/Stata from mentoring research synthesis.*
+*Source: mentoring_impact_effects.csv. Analytics layer: effect-size table prepared in Python (pandas, statsmodels, scikit-learn) from mentoring research synthesis.*
 
 **Table A4. Wage Regression — Log-Linear Model**
 
@@ -589,7 +589,7 @@
 | R² | 0.312 | | | |
 | N | 4,200 | | | |
 
-*Source: sector_wage_progression.csv. Analytics layer: log-linear wage model estimated in R/Stata.*
+*Source: sector_wage_progression.csv. Analytics layer: log-linear wage model estimated in Python (pandas, statsmodels, scikit-learn).*
 
 **Table A5. ROI Model — Key Assumptions and Outputs**
 
@@ -603,7 +603,7 @@
 | ROI ratio | 11.4:1 | PV gain / cost |
 | Breakeven year | Year 4 | Cumulative earnings gain > cumulative cost |
 
-*Source: sector_wage_progression.csv plus mentoring_impact_effects.csv. Analytics layer: ROI model calculated in R/Stata.*
+*Source: sector_wage_progression.csv plus mentoring_impact_effects.csv. Analytics layer: ROI model calculated in Python (pandas, statsmodels, scikit-learn).*
 
 ### 5.2 New Appendix Tables
 
@@ -618,7 +618,7 @@
 | Transportation/Warehousing | 1.81 | 1.76 | 1.79 |
 | Education | 1.52 | 1.48 | 1.50 |
 
-*Source: bea_rims_multipliers.csv. Analytics layer: R/Stata from BEA RIMS II 2023 release.*
+*Source: bea_rims_multipliers.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from BEA RIMS II 2023 release.*
 
 **Table A7. Mentor-Youth Match Quality Predictors (Logistic Regression)**
 
@@ -633,7 +633,7 @@
 | Youth expressed motivation (baseline survey) | 1.89 | 1.54–2.32 | <0.001 |
 | Frequency ≥ 2×/week | 2.12 | 1.71–2.63 | <0.001 |
 
-*Source: mentor_dosage_effectiveness.csv. Analytics layer: logistic regression estimated in R/Stata.*
+*Source: mentor_dosage_effectiveness.csv. Analytics layer: logistic regression estimated in Python (pandas, statsmodels, scikit-learn).*
 
 **Table A8. Program Equity Analysis — Outcomes by Subgroup**
 
@@ -649,7 +649,7 @@
 | Female youth | 73.6 | 37.9 | 81.8 |
 | **Overall** | **71.9** | **39.9** | **80.7** |
 
-*Source: equity_analysis.csv. Analytics layer: R/Stata from program administrative data (projected from comparable programs).*
+*Source: equity_analysis.csv. Analytics layer: Python (pandas, statsmodels, scikit-learn) from program administrative data (projected from comparable programs).*
 
 ---
 
@@ -658,11 +658,11 @@
 | Exhibit Type | Best Label |
 |---|---|
 | Dashboard figure | Visualized in Power BI/Tableau |
-| Descriptive table | Prepared in R/Stata |
-| Regression or ROI output | Estimated or calculated in R/Stata |
-| Policy analysis | Qualitative coding + expert elicitation in R/Stata |
-| Macro projections | VAR/ARIMA models in R/Stata; visualized in Power BI/Tableau |
-| Sensitivity / Monte Carlo | Simulated in R/Stata (10,000 draws) |
+| Descriptive table | Prepared in Python (pandas, statsmodels, scikit-learn) |
+| Regression or ROI output | Estimated or calculated in Python (pandas, statsmodels, scikit-learn) |
+| Policy analysis | Qualitative coding + expert elicitation in Python (pandas, statsmodels, scikit-learn) |
+| Macro projections | VAR/ARIMA models in Python (pandas, statsmodels, scikit-learn); visualized in Power BI/Tableau |
+| Sensitivity / Monte Carlo | Simulated in Python (pandas, statsmodels, scikit-learn) (10,000 draws) |
 
 ---
 
