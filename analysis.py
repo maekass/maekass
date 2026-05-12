@@ -10,6 +10,11 @@ import statsmodels.formula.api as smf
 from scipy import stats
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingRegressor
+from sklearn.cluster import KMeans
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import mean_squared_error, r2_score, accuracy_score, silhouette_score
 import matplotlib.pyplot as plt
 import seaborn as sns
 
@@ -671,6 +676,236 @@ def plot_correlation_heatmap(df, title="Correlation Heatmap"):
                           ha="center", va="center", color="black", fontweight='bold')
     
     ax.set_title(title, fontsize=14, fontweight='bold')
+    plt.tight_layout()
+    return plt
+
+# Machine Learning Models
+
+def predict_program_outcomes(df, features, target, test_size=0.2, random_state=42):
+    """
+    Predict program outcomes (e.g., graduation probability) using Gradient Boosting
+    Returns model, predictions, and performance metrics
+    """
+    # Prepare data
+    X = df[features]
+    y = df[target]
+    
+    # Split data
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=test_size, random_state=random_state
+    )
+    
+    # Scale features
+    scaler = StandardScaler()
+    X_train_scaled = scaler.fit_transform(X_train)
+    X_test_scaled = scaler.transform(X_test)
+    
+    # Train Gradient Boosting Regressor
+    model = GradientBoostingRegressor(
+        n_estimators=100,
+        learning_rate=0.1,
+        max_depth=5,
+        random_state=random_state
+    )
+    model.fit(X_train_scaled, y_train)
+    
+    # Predictions
+    y_pred = model.predict(X_test_scaled)
+    
+    # Performance metrics
+    mse = mean_squared_error(y_test, y_pred)
+    r2 = r2_score(y_test, y_pred)
+    
+    # Feature importance
+    feature_importance = pd.DataFrame({
+        'feature': features,
+        'importance': model.feature_importances_
+    }).sort_values('importance', ascending=False)
+    
+    return {
+        'model': model,
+        'scaler': scaler,
+        'predictions': y_pred,
+        'actual': y_test,
+        'mse': mse,
+        'r2': r2,
+        'feature_importance': feature_importance
+    }
+
+def cluster_participants(df, features, n_clusters=3, random_state=42):
+    """
+    Cluster participants into segments using K-Means
+    Returns cluster labels, centroids, and silhouette score
+    """
+    # Prepare data
+    X = df[features]
+    
+    # Scale features
+    scaler = StandardScaler()
+    X_scaled = scaler.fit_transform(X)
+    
+    # Fit K-Means
+    kmeans = KMeans(n_clusters=n_clusters, random_state=random_state, n_init=10)
+    cluster_labels = kmeans.fit_predict(X_scaled)
+    
+    # Calculate silhouette score
+    silhouette_avg = silhouette_score(X_scaled, cluster_labels)
+    
+    # Get cluster centroids (in original scale)
+    centroids = scaler.inverse_transform(kmeans.cluster_centers_)
+    
+    # Create cluster summary
+    df_clustered = df.copy()
+    df_clustered['cluster'] = cluster_labels
+    
+    cluster_summary = df_clustered.groupby('cluster')[features].agg(['mean', 'std'])
+    
+    return {
+        'cluster_labels': cluster_labels,
+        'centroids': centroids,
+        'silhouette_score': silhouette_avg,
+        'cluster_summary': cluster_summary,
+        'scaler': scaler,
+        'kmeans': kmeans
+    }
+
+def predict_match_success(df, features, target, test_size=0.2, random_state=42):
+    """
+    Predict mentor-youth match success using Random Forest
+    Returns model, predictions, and performance metrics
+    """
+    # Prepare data
+    X = df[features]
+    y = df[target]
+    
+    # Split data
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=test_size, random_state=random_state, stratify=y
+    )
+    
+    # Scale features
+    scaler = StandardScaler()
+    X_train_scaled = scaler.fit_transform(X_train)
+    X_test_scaled = scaler.transform(X_test)
+    
+    # Train Random Forest Classifier
+    model = RandomForestClassifier(
+        n_estimators=100,
+        max_depth=10,
+        random_state=random_state,
+        class_weight='balanced'
+    )
+    model.fit(X_train_scaled, y_train)
+    
+    # Predictions
+    y_pred = model.predict(X_test_scaled)
+    y_pred_proba = model.predict_proba(X_test_scaled)[:, 1]
+    
+    # Performance metrics
+    accuracy = accuracy_score(y_test, y_pred)
+    cv_scores = cross_val_score(model, X_train_scaled, y_train, cv=5)
+    
+    # Feature importance
+    feature_importance = pd.DataFrame({
+        'feature': features,
+        'importance': model.feature_importances_
+    }).sort_values('importance', ascending=False)
+    
+    return {
+        'model': model,
+        'scaler': scaler,
+        'predictions': y_pred,
+        'actual': y_test,
+        'probabilities': y_pred_proba,
+        'accuracy': accuracy,
+        'cv_scores': cv_scores,
+        'feature_importance': feature_importance
+    }
+
+def time_series_forecast(data, forecast_periods=5, window_size=3):
+    """
+    Simple time series forecasting using moving average and trend extrapolation
+    Returns forecasted values and confidence intervals
+    """
+    # Calculate moving average
+    data_series = pd.Series(data)
+    moving_avg = data_series.rolling(window=window_size).mean()
+    
+    # Linear trend extrapolation
+    x = np.arange(len(data))
+    z = np.polyfit(x, data, 2)
+    p = np.poly1d(z)
+    
+    # Forecast
+    x_forecast = np.arange(len(data), len(data) + forecast_periods)
+    forecast = p(x_forecast)
+    
+    # Calculate confidence intervals (simple approach using historical variance)
+    historical_std = np.std(data)
+    ci_lower = forecast - 1.96 * historical_std
+    ci_upper = forecast + 1.96 * historical_std
+    
+    return {
+        'forecast': forecast,
+        'ci_lower': ci_lower,
+        'ci_upper': ci_upper,
+        'historical_data': data,
+        'moving_avg': moving_avg,
+        'trend_line': p(x)
+    }
+
+def plot_feature_importance(feature_importance_df, title="Feature Importance"):
+    """
+    Plot feature importance from ML models
+    """
+    fig, ax = plt.subplots(figsize=(12, 8))
+    
+    # Sort by importance
+    df_sorted = feature_importance_df.sort_values('importance', ascending=True)
+    
+    # Horizontal bar plot
+    bars = ax.barh(df_sorted['feature'], df_sorted['importance'], color='#2b6cb0', alpha=0.8)
+    
+    ax.set_xlabel('Importance', fontsize=12)
+    ax.set_ylabel('Feature', fontsize=12)
+    ax.set_title(title, fontsize=14, fontweight='bold')
+    ax.grid(True, alpha=0.3, axis='x')
+    
+    # Add value labels
+    for i, (bar, val) in enumerate(zip(bars, df_sorted['importance'])):
+        width = bar.get_width()
+        ax.annotate(f'{val:.3f}', xy=(width, bar.get_y() + bar.get_height()/2),
+                    xytext=(5, 0), textcoords="offset points", ha='left', va='center', fontsize=9)
+    
+    plt.tight_layout()
+    return plt
+
+def plot_cluster_analysis(df, cluster_labels, features):
+    """
+    Visualize cluster analysis results
+    """
+    fig, axes = plt.subplots(2, 2, figsize=(14, 12))
+    axes = axes.flatten()
+    
+    df_clustered = df.copy()
+    df_clustered['cluster'] = cluster_labels
+    
+    colors = ['#e53e3e', '#2b6cb0', '#38a169', '#dd6b20', '#805ad5']
+    
+    for i, feature in enumerate(features[:4]):
+        ax = axes[i]
+        for cluster in sorted(df_clustered['cluster'].unique()):
+            cluster_data = df_clustered[df_clustered['cluster'] == cluster][feature]
+            ax.hist(cluster_data, alpha=0.6, label=f'Cluster {cluster}', 
+                   color=colors[int(cluster) % len(colors)], bins=20, edgecolor='black')
+        
+        ax.set_xlabel(feature, fontsize=11)
+        ax.set_ylabel('Frequency', fontsize=11)
+        ax.set_title(f'Distribution of {feature} by Cluster', fontweight='bold')
+        ax.legend()
+        ax.grid(True, alpha=0.3, axis='y')
+    
+    plt.suptitle('Cluster Analysis - Feature Distributions', fontsize=16, fontweight='bold')
     plt.tight_layout()
     return plt
 
