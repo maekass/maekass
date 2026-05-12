@@ -415,6 +415,265 @@ def create_sophisticated_dashboard(regions, youth_unemployment, mentor_supply, a
     
     return plt
 
+def plot_regional_bubble_chart(regions, youth_count, mentor_count, avg_wages):
+    """
+    Geographic-style bubble plot showing regional distribution
+    Bubble size = population, color = average wage
+    """
+    fig, ax = plt.subplots(figsize=(14, 8))
+    
+    # Normalize bubble sizes
+    youth_sizes = np.array(youth_count) / max(youth_count) * 3000
+    mentor_sizes = np.array(mentor_count) / max(mentor_count) * 3000
+    
+    # Create scatter plots
+    x_pos = np.arange(len(regions))
+    y_pos = np.random.rand(len(regions)) * 0.5 + 0.25
+    
+    # Youth bubbles
+    scatter1 = ax.scatter(x_pos, y_pos + 0.2, s=youth_sizes, alpha=0.6, 
+                        c=avg_wages, cmap='YlOrRd', edgecolors='black', linewidth=1.5,
+                        label='Youth Addressable Market')
+    
+    # Mentor bubbles
+    scatter2 = ax.scatter(x_pos + 0.3, y_pos - 0.2, s=mentor_sizes, alpha=0.6,
+                        c=avg_wages, cmap='Blues', edgecolors='black', linewidth=1.5,
+                        label='Mentor Supply')
+    
+    ax.set_xlabel('Region', fontsize=12)
+    ax.set_ylabel('Normalized Position', fontsize=12)
+    ax.set_title('Regional Distribution: Youth Addressable Market vs Mentor Supply\n(Bubble size = population, Color = average wage)', 
+                fontsize=14, fontweight='bold')
+    ax.set_xticks(x_pos + 0.15)
+    ax.set_xticklabels(regions)
+    ax.set_ylim(0, 1)
+    ax.set_yticks([])
+    ax.grid(True, alpha=0.3, axis='x')
+    
+    # Add colorbars
+    cbar1 = plt.colorbar(scatter1, ax=ax, pad=0.02)
+    cbar1.set_label('Average Wage ($/hr)')
+    
+    ax.legend(loc='upper right')
+    
+    # Add annotations
+    for i, region in enumerate(regions):
+        ax.text(x_pos[i], y_pos[i] + 0.35, f'{youth_count[i]:,.0f}', 
+                ha='center', fontsize=9, fontweight='bold')
+        ax.text(x_pos[i] + 0.3, y_pos[i] - 0.35, f'{mentor_count[i]:,.0f}', 
+                ha='center', fontsize=9, fontweight='bold')
+    
+    plt.tight_layout()
+    return plt
+
+def plot_sankey_diagram(labels, sources, targets, values):
+    """
+    Sankey diagram for fund flows
+    Requires: pip install plotly
+    """
+    try:
+        import plotly.graph_objects as go
+        
+        fig = go.Figure(data=[go.Sankey(
+            node=dict(
+                pad=15,
+                thickness=20,
+                line=dict(color="black", width=0.5),
+                label=labels,
+                color="lightblue"
+            ),
+            link=dict(
+                source=sources,
+                target=targets,
+                value=values
+            )
+        )])
+        
+        fig.update_layout(
+            title_text="Fund Flow Sankey Diagram",
+            font_size=12
+        )
+        
+        return fig
+    except ImportError:
+        print("plotly not installed. Install with: pip install plotly")
+        return None
+
+def plot_stakeholder_network(nodes, edges):
+    """
+    Network graph for stakeholder relationships
+    Requires: pip install networkx
+    """
+    try:
+        import networkx as nx
+        
+        G = nx.DiGraph()
+        
+        # Add nodes
+        for i, node in enumerate(nodes):
+            G.add_node(i, label=node)
+        
+        # Add edges
+        for edge in edges:
+            G.add_edge(edge[0], edge[1], weight=edge[2])
+        
+        fig, ax = plt.subplots(figsize=(14, 10))
+        
+        # Layout
+        pos = nx.spring_layout(G, k=2, iterations=50)
+        
+        # Draw nodes
+        node_colors = plt.cm.Set3(np.arange(len(nodes)) / len(nodes))
+        nx.draw_networkx_nodes(G, pos, node_size=3000, node_color=node_colors, 
+                              ax=ax, alpha=0.8, edgecolors='black', linewidths=2)
+        
+        # Draw edges with varying thickness based on weight
+        for edge in G.edges(data=True):
+            nx.draw_networkx_edges(G, pos, edgelist=[(edge[0], edge[1])],
+                                  width=edge[2]['weight'] * 2, alpha=0.5, 
+                                  edge_color='gray', ax=ax, arrowstyle='->', 
+                                  arrowsize=20)
+        
+        # Draw labels
+        labels = nx.get_node_attributes(G, 'label')
+        nx.draw_networkx_labels(G, pos, labels, font_size=10, font_weight='bold', ax=ax)
+        
+        ax.set_title('Stakeholder Network Analysis', fontsize=16, fontweight='bold')
+        ax.axis('off')
+        
+        plt.tight_layout()
+        return plt
+    except ImportError:
+        print("networkx not installed. Install with: pip install networkx")
+        return None
+
+def plot_violin_distributions(data_dict):
+    """
+    Violin plot for distribution analysis across groups
+    """
+    fig, ax = plt.subplots(figsize=(14, 8))
+    
+    # Prepare data
+    all_data = []
+    labels = []
+    for label, data in data_dict.items():
+        all_data.append(data)
+        labels.append(label)
+    
+    # Create violin plot
+    parts = ax.violinplot(all_data, showmeans=True, showmedians=True)
+    
+    # Color the violin bodies
+    colors = ['#e53e3e', '#dd6b20', '#d69e2e', '#38a169', '#3182ce', '#805ad5']
+    for pc, color in zip(parts['bodies'], colors):
+        pc.set_facecolor(color)
+        pc.set_alpha(0.7)
+    
+    ax.set_ylabel('Value', fontsize=12)
+    ax.set_xlabel('Group', fontsize=12)
+    ax.set_title('Distribution Analysis - Violin Plot', fontsize=14, fontweight='bold')
+    ax.set_xticks(np.arange(1, len(labels) + 1))
+    ax.set_xticklabels(labels, rotation=45, ha='right')
+    ax.grid(True, alpha=0.3, axis='y')
+    
+    plt.tight_layout()
+    return plt
+
+def plot_time_series_with_trend(years, data_series, trend_line=True):
+    """
+    Time series plot with optional trend line and confidence intervals
+    """
+    fig, ax = plt.subplots(figsize=(14, 6))
+    
+    colors = ['#2b6cb0', '#e53e3e', '#38a169', '#dd6b20', '#805ad5']
+    
+    for i, (label, data) in enumerate(data_series.items()):
+        ax.plot(years, data, marker='o', linewidth=2.5, markersize=7, 
+                label=label, color=colors[i % len(colors)])
+        
+        # Add trend line
+        if trend_line and len(years) > 2:
+            z = np.polyfit(years, data, 2)
+            p = np.poly1d(z)
+            x_trend = np.linspace(min(years), max(years), 100)
+            ax.plot(x_trend, p(x_trend), '--', linewidth=1.5, alpha=0.7, color=colors[i % len(colors)])
+    
+    ax.set_xlabel('Year', fontsize=12)
+    ax.set_ylabel('Value', fontsize=12)
+    ax.set_title('Time Series Analysis with Trend Lines', fontsize=14, fontweight='bold')
+    ax.legend(fontsize=10)
+    ax.grid(True, alpha=0.3)
+    
+    plt.tight_layout()
+    return plt
+
+def plot_box_plot_with_strip(data_dict):
+    """
+    Box plot with overlaid strip plot for detailed distribution view
+    """
+    fig, ax = plt.subplots(figsize=(14, 8))
+    
+    # Prepare data
+    all_data = []
+    labels = []
+    for label, data in data_dict.items():
+        all_data.append(data)
+        labels.append(label)
+    
+    # Create box plot
+    bp = ax.boxplot(all_data, patch_artist=True, labels=labels)
+    
+    # Color the boxes
+    colors = ['#e53e3e', '#dd6b20', '#d69e2e', '#38a169', '#3182ce', '#805ad5']
+    for patch, color in zip(bp['boxes'], colors):
+        patch.set_facecolor(color)
+        patch.set_alpha(0.7)
+    
+    # Add strip plot overlay
+    for i, data in enumerate(all_data):
+        x = np.random.normal(i + 1, 0.1, size=len(data))
+        ax.scatter(x, data, alpha=0.5, s=20, color='black', marker='o')
+    
+    ax.set_ylabel('Value', fontsize=12)
+    ax.set_xlabel('Group', fontsize=12)
+    ax.set_title('Distribution Analysis - Box Plot with Strip Overlay', fontsize=14, fontweight='bold')
+    ax.grid(True, alpha=0.3, axis='y')
+    
+    plt.tight_layout()
+    return plt
+
+def plot_correlation_heatmap(df, title="Correlation Heatmap"):
+    """
+    Correlation heatmap for multivariate analysis
+    """
+    fig, ax = plt.subplots(figsize=(12, 10))
+    
+    # Calculate correlation matrix
+    corr_matrix = df.corr()
+    
+    # Create heatmap
+    im = ax.imshow(corr_matrix, cmap='RdBu_r', vmin=-1, vmax=1, aspect='auto')
+    
+    # Set ticks
+    ax.set_xticks(np.arange(len(df.columns)))
+    ax.set_yticks(np.arange(len(df.columns)))
+    ax.set_xticklabels(df.columns, rotation=45, ha='right')
+    ax.set_yticklabels(df.columns)
+    
+    # Add colorbar
+    cbar = plt.colorbar(im, ax=ax)
+    cbar.set_label('Correlation Coefficient')
+    
+    # Add value annotations
+    for i in range(len(df.columns)):
+        for j in range(len(df.columns)):
+            text = ax.text(j, i, f'{corr_matrix.iloc[i, j]:.2f}',
+                          ha="center", va="center", color="black", fontweight='bold')
+    
+    ax.set_title(title, fontsize=14, fontweight='bold')
+    plt.tight_layout()
+    return plt
+
 def generate_report_tables(df_dict, output_dir='tables'):
     """
     Generate all analysis tables for report
