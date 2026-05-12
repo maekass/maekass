@@ -921,6 +921,118 @@ def generate_report_tables(df_dict, output_dir='tables'):
         df.to_latex(f'{output_dir}/{name}.tex', index=False)
         df.to_html(f'{output_dir}/{name}.html', index=False)
 
+# Streamlined Visualization Functions
+
+def quick_bar(x, y, title=None, xlabel=None, ylabel=None):
+    """Simple one-line bar chart"""
+    plt.figure(figsize=(10, 6))
+    plt.bar(x, y, color='#2b6cb0', alpha=0.8, edgecolor='black', linewidth=1)
+    if title: plt.title(title, fontweight='bold')
+    if xlabel: plt.xlabel(xlabel)
+    if ylabel: plt.ylabel(ylabel)
+    plt.grid(True, alpha=0.3, axis='y')
+    plt.tight_layout()
+    return plt
+
+def quick_line(x, y, title=None, xlabel=None, ylabel=None, label=None):
+    """Simple one-line chart"""
+    plt.figure(figsize=(10, 6))
+    plt.plot(x, y, marker='o', linewidth=2.5, markersize=7, color='#2b6cb0', label=label)
+    if title: plt.title(title, fontweight='bold')
+    if xlabel: plt.xlabel(xlabel)
+    if ylabel: plt.ylabel(ylabel)
+    if label: plt.legend()
+    plt.grid(True, alpha=0.3)
+    plt.tight_layout()
+    return plt
+
+def quick_scatter(x, y, title=None, xlabel=None, ylabel=None):
+    """Simple one-line scatter plot"""
+    plt.figure(figsize=(10, 6))
+    plt.scatter(x, y, alpha=0.6, color='#2b6cb0', edgecolors='black', linewidth=1)
+    if title: plt.title(title, fontweight='bold')
+    if xlabel: plt.xlabel(xlabel)
+    if ylabel: plt.ylabel(ylabel)
+    plt.grid(True, alpha=0.3)
+    plt.tight_layout()
+    return plt
+
+def quick_hist(data, title=None, xlabel=None, bins=20):
+    """Simple one-line histogram"""
+    plt.figure(figsize=(10, 6))
+    plt.hist(data, bins=bins, color='#2b6cb0', alpha=0.7, edgecolor='black', linewidth=1)
+    if title: plt.title(title, fontweight='bold')
+    if xlabel: plt.xlabel(xlabel)
+    plt.ylabel('Frequency')
+    plt.grid(True, alpha=0.3, axis='y')
+    plt.tight_layout()
+    return plt
+
+def quick_pie(values, labels, title=None):
+    """Simple one-line pie chart"""
+    plt.figure(figsize=(10, 6))
+    plt.pie(values, labels=labels, autopct='%1.1f%%', startangle=90, colors=plt.cm.Set3(np.arange(len(values))))
+    if title: plt.title(title, fontweight='bold')
+    plt.axis('equal')
+    plt.tight_layout()
+    return plt
+
+def quick_heatmap(data, title=None):
+    """Simple one-line heatmap"""
+    plt.figure(figsize=(10, 8))
+    plt.imshow(data, cmap='RdBu_r', aspect='auto')
+    plt.colorbar()
+    if title: plt.title(title, fontweight='bold')
+    plt.tight_layout()
+    return plt
+
+def quick_box(data_dict, title=None):
+    """Simple one-line box plot"""
+    plt.figure(figsize=(12, 6))
+    plt.boxplot(data_dict.values(), labels=data_dict.keys(), patch_artist=True)
+    if title: plt.title(title, fontweight='bold')
+    plt.grid(True, alpha=0.3, axis='y')
+    plt.tight_layout()
+    return plt
+
+def quick_multi_line(data_dict, title=None, xlabel=None, ylabel=None):
+    """Simple multi-line chart"""
+    plt.figure(figsize=(12, 6))
+    colors = ['#2b6cb0', '#e53e3e', '#38a169', '#dd6b20', '#805ad5']
+    for i, (label, data) in enumerate(data_dict.items()):
+        plt.plot(data, marker='o', linewidth=2, markersize=6, label=label, color=colors[i % len(colors)])
+    if title: plt.title(title, fontweight='bold')
+    if xlabel: plt.xlabel(xlabel)
+    if ylabel: plt.ylabel(ylabel)
+    plt.legend()
+    plt.grid(True, alpha=0.3)
+    plt.tight_layout()
+    return plt
+
+def quick_compare_bar(labels, values1, values2, label1='Series 1', label2='Series 2', title=None):
+    """Simple comparison bar chart"""
+    plt.figure(figsize=(12, 6))
+    x = np.arange(len(labels))
+    width = 0.35
+    plt.bar(x - width/2, values1, width, label=label1, color='#2b6cb0', alpha=0.8)
+    plt.bar(x + width/2, values2, width, label=label2, color='#e53e3e', alpha=0.8)
+    plt.xticks(x, labels)
+    if title: plt.title(title, fontweight='bold')
+    plt.legend()
+    plt.grid(True, alpha=0.3, axis='y')
+    plt.tight_layout()
+    return plt
+
+def plot_all_quick(data_dict, title_prefix="Quick Plot"):
+    """Generate all quick plots for a dictionary of data"""
+    for i, (key, value) in enumerate(data_dict.items()):
+        if isinstance(value, list) and len(value) > 1:
+            if all(isinstance(v, (int, float)) for v in value):
+                quick_hist(value, title=f"{title_prefix} - {key} (Histogram)")
+                plt.show()
+                quick_line(range(len(value)), value, title=f"{title_prefix} - {key} (Line)")
+                plt.show()
+
 # Example usage
 if __name__ == "__main__":
     print("Intergenerational Mobility Fund - Python Analysis Scripts")
