@@ -219,6 +219,69 @@ def plot_roi_distribution(mc_results):
     plt.tight_layout()
     return plt
 
+def plot_mentor_supply_demand(regions, seeking_pct, serving_pct):
+    """
+    Figure 2: Older Adults (65+) - Mentor Role Seeking vs. Current Engagement
+    Bar chart comparing those seeking mentor roles vs. currently serving
+    """
+    fig, ax = plt.subplots(figsize=(12, 6))
+    
+    x = np.arange(len(regions))
+    width = 0.35
+    
+    bars1 = ax.bar(x - width/2, seeking_pct, width, label='Seeking Mentor Role', color='#2c5282')
+    bars2 = ax.bar(x + width/2, serving_pct, width, label='Currently Serving', color='#4299e1')
+    
+    ax.set_xlabel('Region', fontsize=12)
+    ax.set_ylabel('Percentage (%)', fontsize=12)
+    ax.set_title('Figure 2: Older Adults (65+) - Mentor Role Seeking vs. Current Engagement', fontsize=14, fontweight='bold')
+    ax.set_xticks(x)
+    ax.set_xticklabels(regions)
+    ax.legend()
+    ax.grid(True, alpha=0.3, axis='y')
+    
+    # Add value labels on bars
+    for bar in bars1:
+        height = bar.get_height()
+        ax.annotate(f'{height:.1f}%', xy=(bar.get_x() + bar.get_width()/2, height), 
+                    xytext=(0, 3), textcoords="offset points", ha='center', fontsize=9)
+    for bar in bars2:
+        height = bar.get_height()
+        ax.annotate(f'{height:.1f}%', xy=(bar.get_x() + bar.get_width()/2, height), 
+                    xytext=(0, 3), textcoords="offset points", ha='center', fontsize=9)
+    
+    plt.tight_layout()
+    return plt
+
+def plot_mentor_dosage_response(duration_months, graduation_prob):
+    """
+    Figure 5: Mentor Match Duration and Graduation Probability
+    Line/area chart showing relationship between mentor match duration and graduation probability
+    """
+    fig, ax = plt.subplots(figsize=(12, 6))
+    
+    # Plot the dosage-response curve
+    ax.plot(duration_months, graduation_prob, marker='o', linewidth=3, markersize=8, 
+            color='#2b6cb0', label='Graduation Probability')
+    
+    # Add shaded area under curve
+    ax.fill_between(duration_months, graduation_prob, alpha=0.3, color='#4299e1')
+    
+    ax.set_xlabel('Mentor Match Duration (months)', fontsize=12)
+    ax.set_ylabel('Graduation Probability (%)', fontsize=12)
+    ax.set_title('Figure 5: Mentor Match Duration and Graduation Probability', fontsize=14, fontweight='bold')
+    ax.set_ylim(0, 100)
+    ax.grid(True, alpha=0.3)
+    ax.legend()
+    
+    # Add annotations for key points
+    for i, (x, y) in enumerate(zip(duration_months, graduation_prob)):
+        ax.annotate(f'{y:.0f}%', xy=(x, y), xytext=(0, 10), textcoords="offset points", 
+                    ha='center', fontsize=10, fontweight='bold')
+    
+    plt.tight_layout()
+    return plt
+
 def generate_report_tables(df_dict, output_dir='tables'):
     """
     Generate all analysis tables for report
