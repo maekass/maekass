@@ -6,7 +6,7 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 <!-- HEADER — animated wave gradient                            -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E0C8C4,25:D6CADD,50:C4B1C9,75:D6CADD,100:E0C8C4&height=200&section=header&text=Mae%20Kass&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=quantitative%20finance%20%C2%B7%20applied%20AI%20%C2%B7%20early-stage%20co-investor&descSize=18&descColor=ffffff&descAlignY=55&animation=fadeIn&fontAlign=50&descAlign=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E0C8C4,25:D6CADD,50:C4B1C9,75:D6CADD,100:E0C8C4&height=200&section=header&text=Mae%20Kass&fontSize=52&fontColor=ffffff&fontAlignY=40&animation=fadeIn&fontAlign=50" width="100%" />
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- TYPING TAGLINE                                             -->
@@ -14,7 +14,7 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 
 <p align="center">
   <a href="https://github.com/maekass">
-    <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=22&duration=4000&pause=1200&color=A899B0&center=true&vCenter=true&repeat=true&width=820&height=35&lines=investment+banking+%C2%B7+%242B%2B+AUM+public+equities+%C2%B7+early-stage+syndicator;quantitative+finance+%C2%B7+applied+AI+%C2%B7+network+science;10%2B+co-investments+in+oncology%2C+genomics+%26+female-specific+medicine" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=22&duration=4000&pause=1200&color=A899B0&center=true&vCenter=true&repeat=true&width=820&height=35&lines=quantitative+finance+%C2%B7+applied+AI+%C2%B7+early-stage+co-investor;investment+banking+%C2%B7+%242B%2B+AUM+public+equities+%C2%B7+early-stage+syndicator;10%2B+co-investments+in+oncology%2C+genomics+%26+female-specific+medicine" alt="Typing SVG" />
   </a>
 </p>
 
