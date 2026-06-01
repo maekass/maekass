@@ -1,5 +1,5 @@
 <!--
-Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, early-stage investor, healthtech, genetics market analysis, maternal mortality, immuno-oncology, precision oncology, genomic solutions, Black women's health, quantitative analysis, health equity, M&A intelligence, FemTech, machine learning, investor, network visualization, social impact investing, AI fellowship, women's health, oncology, portfolio
+Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, early-stage co-investor, syndicator, healthtech, genetic predispositions, epidemiology, chronic illness, ovarian cancer, early detection, maternal mortality, immuno-oncology, precision oncology, genomic solutions, Black women's health, women's sports, quantitative analysis, health equity, M&A intelligence, FemTech, machine learning, network visualization, social impact investing, AI fellowship, women's health, oncology, underserved illness, portfolio
 -->
 
 <!-- ═══════════════════════════════════════════════════════════ -->
@@ -14,7 +14,7 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 
 <p align="center">
   <a href="https://github.com/maekass">
-    <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=22&duration=4000&pause=1200&color=A899B0&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=70&lines=investment+banking+%C2%B7+%242B%2B+AUM+public+equities+%C2%B7+early-stage+syndicator;20%2B+co-investments+in+immuno-oncology%2C+precision+oncology+%26+women's+genomics;MPH+%C2%B7+genetics+market+analyst+%C2%B7+maternal+mortality+investigator" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=22&duration=4000&pause=1200&color=A899B0&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=70&lines=investment+banking+%C2%B7+%242B%2B+AUM+public+equities+%C2%B7+early-stage+syndicator;20%2B+co-investments+in+immuno-oncology%2C+precision+oncology+%26+women's+genomics;MPH+%C2%B7+maternal+mortality+%C2%B7+genetic+predispositions+%26+underserved+illness" alt="Typing SVG" />
   </a>
 </p>
 
@@ -45,7 +45,9 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 <table align="center" border="0" cellspacing="0" cellpadding="0">
 <tr><td width="600">
 
-I'm Mae — MPH, genetics market analyst, and maternal mortality investigator. I come from institutional finance — investment banking and public equities ($2B+ AUM across domestic and emerging markets) — and now co-invest and syndicate early-stage in healthtech, with 20+ investments in immuno-oncology, precision oncology, and genomic solutions for women's health, particular to Black women.
+I'm Mae — MPH and maternal mortality investigator. I come from institutional finance — investment banking and public equities ($2B+ AUM across domestic and emerging markets) — and now co-invest and syndicate early-stage in healthtech, with 20+ investments in immuno-oncology, precision oncology, and genomic solutions for women's health, particular to Black women.
+
+My focus is genetic predispositions and markers for epidemiologies, chronic illness, and underserved illness — shaped by loved ones' experiences, my own early-detection experience with ovarian cancer, parental cancer, and years of observing health inequity up close. I also care deeply about women's sports and movement as a lens for understanding health outcomes.
 
 I build tools that make healthcare M&A and health equity research more visual, more interactive, and more honest about what the data actually says. My work sits at the intersection of quantitative finance, network science, and women's health — spaces that don't often overlap, which is exactly why they should.
 
