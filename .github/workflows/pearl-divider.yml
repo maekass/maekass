@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "assets/pearl-divider-animated.svg"
+      - "assets/pearl-divider-dark.svg"
   workflow_dispatch:
 
 jobs:
@@ -20,6 +21,7 @@ jobs:
         run: |
           mkdir -p dist
           cp assets/pearl-divider-animated.svg dist/pearl-divider.svg
+          cp assets/pearl-divider-dark.svg dist/pearl-divider-dark.svg
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
