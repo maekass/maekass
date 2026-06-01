@@ -1,5 +1,5 @@
 <!--
-Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, early-stage co-investor, syndicator, healthtech, quantitative finance, genetic predispositions, epidemiology, chronic illness, ovarian cancer, early detection, maternal mortality, immuno-oncology, precision oncology, genomic solutions, Black women's health, women's sports, female athletic performance, sports science, women's sport ownership, quantitative analysis, health equity, M&A intelligence, FemTech, machine learning, AI, network visualization, venture capital, AI fellowship, women's health, oncology, underserved illness, stochastic modeling, deal scoring, portfolio analytics, social health documentary, impact film, birth justice, portfolio
+Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, early-stage co-investor, syndicator, healthtech, quantitative finance, genetic predispositions, epidemiology, chronic illness, ovarian cancer, early detection, maternal mortality, immuno-oncology, precision oncology, genomic solutions, Black women's health, women's sports, female athletic performance, sports science, women's sport ownership, quantitative analysis, M&A intelligence, FemTech, machine learning, AI, network visualization, venture capital, AI fellowship, women's health, oncology, stochastic modeling, deal scoring, portfolio analytics, documentary, portfolio
 -->
 
 <!-- ═══════════════════════════════════════════════════════════ -->
@@ -46,11 +46,11 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 
 I'm Mae — quantitative finance professional, early-stage co-investor, and technologist. My career began in institutional finance — investment banking and public equities ($2B+ AUM, domestic and emerging markets) — and I now deploy capital and build software at the frontier of healthcare M&A, with 10+ early-stage investments across immuno-oncology, precision oncology, and genomic solutions in female-specific medicine, particular to Black women.
 
-My thesis is simple: the market has systematically mispriced woman-centric health. Genetic markers that predict disease in Black women, ACL biomechanics in female athletes, maternal mortality in the wealthiest country on earth — these are not soft issues. They are quantifiable, they are addressable, and they are investable. I make that case in the language capital markets understand.
+My thesis is simple: the market has systematically underpriced woman-centric health. Genetic markers that predict disease in Black women, ACL biomechanics in female athletes, maternal mortality in the wealthiest country on earth — these are not soft issues. They are quantifiable, they are addressable, and they are investable. I make that case in the language capital markets understand.
 
-I hold an MPH and have investigated maternal mortality and genetic predispositions for epidemiologies, chronic illness, and underserved disease — a focus shaped by lived experience: early detection of ovarian cancer, parental cancer, and years spent observing health inequity at close range. This domain expertise sharpens every investment thesis I write and every tool I build.
+I hold an MPH and have investigated maternal mortality and genetic predispositions for epidemiologies and chronic illness — a focus shaped by lived experience: early detection of ovarian cancer, parental cancer, and years spent in close proximity to these problems. This domain expertise sharpens every investment thesis I write and every tool I build.
 
-On the technical side, I architect platforms that apply network science, ML-driven deal scoring, and stochastic modeling to healthcare dealflow — making opaque markets legible and quantifiable. The work is always the same: rigorous computational methods applied to sectors capital has overlooked.
+On the technical side, I architect platforms that apply network science, ML-driven deal scoring, and stochastic modeling to healthcare dealflow — making opaque markets legible and quantifiable.
 
 I am making the investment case for avant-garde areas of medicine that affect people I love and those I have yet to meet. Whether the path runs through applied AI, venture capital, female-specific medicine, sport innovation, or maternal mortality research — I welcome the conversation.
 
@@ -74,7 +74,7 @@ I am making the investment case for avant-garde areas of medicine that affect pe
 <td width="300" valign="top">
   <a href="https://github.com/maekass/Lacuna"><strong>Lacuna</strong></a><br>
   <sub>Next.js 16 · React 19 · D3.js · TensorFlow.js</sub><br><br>
-  Quantitative M&A intelligence platform. Force-directed network graphs, exit pattern analytics, ML-driven deal scoring, and health equity audits — applied to female-specific medicine. <br><br>
+  Quantitative M&A intelligence platform. Force-directed network graphs, exit pattern analytics, ML-driven deal scoring, and fairness audits — applied to female-specific medicine. <br><br>
   <a href="https://lacuna-maekass.vercel.app">
     <img src="https://img.shields.io/badge/live_demo-lacuna-C4B1C9?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" />
   </a>
@@ -131,12 +131,12 @@ I am making the investment case for avant-garde areas of medicine that affect pe
 <br>
 
 <p align="center">
-  <strong>Quantitative Finance</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Applied AI</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>M&A Intelligence</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Oncology &amp; Genomics for Black Women</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Women's Sport</strong>
+  <strong>Quantitative Finance</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Applied AI</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>M&A Intelligence</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Oncology &amp; Genomics</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Women's Sport</strong>
 </p>
 
 <p align="center">
   <sub>deal scoring · network science · stochastic modeling · venture capital · precision oncology<br>
-  female-specific medicine · female athletic performance · maternal mortality · Black women's health</sub>
+  female-specific medicine · female athletic performance · maternal mortality · genomic solutions</sub>
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
