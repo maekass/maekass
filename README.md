@@ -14,7 +14,7 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 
 <p align="center">
   <a href="https://github.com/maekass">
-    <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=22&duration=4000&pause=1200&color=A899B0&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=70&lines=investment+banking+%C2%B7+%242B%2B+AUM+public+equities+%C2%B7+early-stage+syndicator;20%2B+co-investments+in+immuno-oncology%2C+precision+oncology+%26+women's+genomics;women's+health+%C2%B7+sport+science+%C2%B7+female+athletic+performance" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=22&duration=4000&pause=1200&color=A899B0&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=70&lines=investment+banking+%C2%B7+%242B%2B+AUM+public+equities+%C2%B7+early-stage+syndicator;10%2B+early-stage+co-investments+in+immuno-oncology%2C+precision+oncology+%26+women's+genomics;women's+health+%C2%B7+sport+science+%C2%B7+female+athletic+performance" alt="Typing SVG" />
   </a>
 </p>
 
@@ -45,7 +45,7 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 <table align="center" border="0" cellspacing="0" cellpadding="0">
 <tr><td width="600">
 
-I'm Mae — MPH and maternal mortality investigator. I come from institutional finance — investment banking and public equities ($2B+ AUM across domestic and emerging markets) — and now co-invest and syndicate early-stage in healthtech, with 20+ investments in immuno-oncology, precision oncology, and genomic solutions for women's health, particular to Black women.
+I'm Mae — MPH and maternal mortality investigator. I come from institutional finance — investment banking and public equities ($2B+ AUM across domestic and emerging markets) — and now co-invest and syndicate early-stage in healthtech, with 10+ early-stage investments in immuno-oncology, precision oncology, and genomic solutions for women's health, particular to Black women.
 
 My focus is genetic predispositions and markers for epidemiologies, chronic illness, and underserved illness — shaped by loved ones' experiences, my own early-detection experience with ovarian cancer, parental cancer, and years of observing health inequity up close. I believe women's sports and movement are essential to understanding female health outcomes, and that the gap between how we train and treat female athletes and what the science actually supports is an investment opportunity, not just a research question.
 
