@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 30" width="600" height="30">
   <defs>
     <linearGradient id="fl-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#E8B4D9;stop-opacity:0" />
-      <stop offset="20%" style="stop-color:#D4A5E0;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#C8A8E9;stop-opacity:1" />
-      <stop offset="80%" style="stop-color:#D4A5E0;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#E8B4D9;stop-opacity:0" />
+      <stop offset="0%" style="stop-color:#E0C8C4;stop-opacity:0" />
+      <stop offset="20%" style="stop-color:#D6CADD;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#C4B1C9;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#D6CADD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0C8C4;stop-opacity:0" />
     </linearGradient>
   </defs>
   <path d="
@@ -18,5 +18,5 @@
     C 440,25 460,15 500,15
   " fill="none" stroke="url(#fl-gradient)" stroke-width="1.2" stroke-linecap="round" />
   <!-- center diamond ornament -->
-  <path d="M 296,10 L 300,6 L 304,10 L 300,14 Z" fill="#C8A8E9" opacity="0.8" />
+  <path d="M 296,10 L 300,6 L 304,10 L 300,14 Z" fill="#C4B1C9" opacity="0.8" />
 </svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 40" width="600" height="40">
+  <defs>
+    <!-- pearl radial gradient — luminous white with warm pink/cream sheen -->
+    <radialGradient id="pearl-lg" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#F8F4F0;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#F0EAE4;stop-opacity:1" />
+      <stop offset="85%" style="stop-color:#E8DDD6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D6CADD;stop-opacity:0.8" />
+    </radialGradient>
+    <radialGradient id="pearl-sm" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#F5F0EC;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#EDE4DF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D6CADD;stop-opacity:0.7" />
+    </radialGradient>
+    <!-- pearl highlight -->
+    <radialGradient id="pearl-shine" cx="30%" cy="25%" r="30%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0" />
+    </radialGradient>
+    <!-- line gradient -->
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E0C8C4;stop-opacity:0" />
+      <stop offset="20%" style="stop-color:#E0C8C4;stop-opacity:0.6" />
+      <stop offset="50%" style="stop-color:#D6CADD;stop-opacity:0.8" />
+      <stop offset="80%" style="stop-color:#E0C8C4;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#E0C8C4;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  <!-- thin line -->
+  <line x1="60" y1="20" x2="540" y2="20" stroke="url(#line-grad)" stroke-width="0.8" />
+  <!-- small pearl left -->
+  <circle cx="180" cy="20" r="5" fill="url(#pearl-sm)" />
+  <circle cx="180" cy="20" r="5" fill="url(#pearl-shine)" />
+  <!-- center pearl (larger) -->
+  <circle cx="300" cy="20" r="9" fill="url(#pearl-lg)" />
+  <circle cx="300" cy="20" r="9" fill="url(#pearl-shine)" />
+  <!-- small pearl right -->
+  <circle cx="420" cy="20" r="5" fill="url(#pearl-sm)" />
+  <circle cx="420" cy="20" r="5" fill="url(#pearl-shine)" />
+  <!-- tiny accent pearls -->
+  <circle cx="140" cy="20" r="2.5" fill="url(#pearl-sm)" opacity="0.7" />
+  <circle cx="460" cy="20" r="2.5" fill="url(#pearl-sm)" opacity="0.7" />
+</svg>

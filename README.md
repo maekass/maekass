@@ -6,7 +6,7 @@ Keywords: Mae Kass, quantitative analysis, health equity, M&A intelligence, FemT
 <!-- HEADER — animated wave gradient                            -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E8B4D9,25:D4A5E0,50:C8A8E9,75:B19CD9,100:C8A2C8&height=200&section=header&text=Mae%20Kass&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=quantitative%20analyst%20%26%20builder&descSize=18&descColor=ffffff&descAlignY=55&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E0C8C4,25:D6CADD,50:C4B1C9,75:D6CADD,100:E0C8C4&height=200&section=header&text=Mae%20Kass&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=quantitative%20analyst%20%26%20builder&descSize=18&descColor=ffffff&descAlignY=55&animation=fadeIn" width="100%" />
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- TYPING TAGLINE                                             -->
@@ -14,7 +14,7 @@ Keywords: Mae Kass, quantitative analysis, health equity, M&A intelligence, FemT
 
 <p align="center">
   <a href="https://github.com/maekass">
-    <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=500&size=22&duration=4000&pause=1200&color=C8A8E9&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=70&lines=building+at+the+intersection+of+health+%26+intelligence;M%26A+analytics+%C2%B7+health+equity+%C2%B7+applied+ML;the+future+of+women's+health+is+quantitative" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=22&duration=4000&pause=1200&color=A899B0&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=70&lines=building+at+the+intersection+of+health+%26+intelligence;M%26A+analytics+%C2%B7+health+equity+%C2%B7+applied+ML;the+future+of+women's+health+is+quantitative" alt="Typing SVG" />
   </a>
 </p>
 
@@ -33,7 +33,7 @@ Keywords: Mae Kass, quantitative analysis, health equity, M&A intelligence, FemT
 </p>
 
 <p align="center">
-  <img src="./assets/flourish.svg" width="400" />
+  <img src="./assets/pearl-divider.svg" width="400" />
 </p>
 
 <br>
@@ -57,47 +57,6 @@ Right now I'm focused on late-stage M&A investing in healthtech and exploring AI
 <br>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!-- CURRENTLY — editorial magazine sidebar                     -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
-<p align="center">
-  <img src="./assets/flourish.svg" width="400" />
-</p>
-
-<br>
-
-<table align="center" border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td width="30" align="center"><img src="./assets/ribbon.svg" width="12" /></td>
-<td><strong>currently building</strong></td>
-<td>&nbsp;&nbsp;—&nbsp;&nbsp;</td>
-<td><a href="https://github.com/maekass/Lacuna">Lacuna</a>, an M&A intelligence platform for women's health</td>
-</tr>
-<tr>
-<td width="30" align="center"><img src="./assets/soccer.svg" width="14" /></td>
-<td><strong>currently playing</strong></td>
-<td>&nbsp;&nbsp;—&nbsp;&nbsp;</td>
-<td>soccer in the park, volleyball when the weather's right</td>
-</tr>
-<tr>
-<td width="30" align="center"><img src="./assets/volleyball.svg" width="14" /></td>
-<td><strong>currently exploring</strong></td>
-<td>&nbsp;&nbsp;—&nbsp;&nbsp;</td>
-<td>causal inference in oncology trial data & fairness audits in health AI</td>
-</tr>
-<tr>
-<td width="30" align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&color=C8A8E9&height=14&section=header" width="14" height="14" />
-</td>
-<td><strong>currently listening</strong></td>
-<td>&nbsp;&nbsp;—&nbsp;&nbsp;</td>
-<td><a href="#-now-playing">see below</a></td>
-</tr>
-</table>
-
-<br>
-
-<!-- ═══════════════════════════════════════════════════════════ -->
 <!-- SELECTED WORK — film strip border aesthetic                -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
@@ -115,7 +74,7 @@ Right now I'm focused on late-stage M&A investing in healthtech and exploring AI
   <sub>Next.js 16 · React 19 · D3.js · TensorFlow.js</sub><br><br>
   Network intelligence platform for FemTech M&A. Interactive force-directed graphs, exit pattern analytics, ML-based deal scoring, and health equity audits. <br><br>
   <a href="https://lacuna-maekass.vercel.app">
-    <img src="https://img.shields.io/badge/live_demo-lacuna-C8A8E9?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" />
+    <img src="https://img.shields.io/badge/live_demo-lacuna-C4B1C9?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" />
   </a>
 </td>
 <td width="300" valign="top">
@@ -164,7 +123,7 @@ Right now I'm focused on late-stage M&A investing in healthtech and exploring AI
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="./assets/flourish.svg" width="400" />
+  <img src="./assets/pearl-divider.svg" width="400" />
 </p>
 
 <br>
@@ -180,36 +139,14 @@ Right now I'm focused on late-stage M&A investing in healthtech and exploring AI
 
 <br>
 
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!-- NOW PLAYING — Spotify widget placeholder                   -->
-<!-- ═══════════════════════════════════════════════════════════ -->
 
-<p align="center">
-  <img src="./assets/flourish.svg" width="400" />
-</p>
-
-<br>
-
-<h4 align="center" id="-now-playing">🎧 Now Playing</h4>
-
-<p align="center">
-  <a href="https://open.spotify.com/user/maekass">
-    <img src="https://img.shields.io/badge/Spotify-connect_to_activate-C8A8E9?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" />
-  </a>
-</p>
-
-<p align="center">
-  <sub><em>Spotify widget activates once connected — <a href="https://github.com/novatorem/novatorem/blob/main/SetUp.md">setup guide</a></em></sub>
-</p>
-
-<br>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- CONTRIBUTION SNAKE                                         -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="./assets/flourish.svg" width="400" />
+  <img src="./assets/pearl-divider.svg" width="400" />
 </p>
 
 <br>
@@ -227,9 +164,9 @@ Right now I'm focused on late-stage M&A investing in healthtech and exploring AI
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <a href="https://github.com/maekass"><img src="https://img.shields.io/badge/GitHub-C8A8E9?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>&nbsp;&nbsp;
-  <a href="https://linkedin.com/in/maekass"><img src="https://img.shields.io/badge/LinkedIn-D4A5E0?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;&nbsp;
-  <a href="https://lacuna-maekass.vercel.app"><img src="https://img.shields.io/badge/Lacuna_Demo-E8B4D9?style=for-the-badge&logo=vercel&logoColor=white" alt="Lacuna"></a>
+  <a href="https://github.com/maekass"><img src="https://img.shields.io/badge/GitHub-C4B1C9?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>&nbsp;&nbsp;
+  <a href="https://linkedin.com/in/maekass"><img src="https://img.shields.io/badge/LinkedIn-D6CADD?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;&nbsp;
+  <a href="https://lacuna-maekass.vercel.app"><img src="https://img.shields.io/badge/Lacuna_Demo-E0C8C4?style=for-the-badge&logo=vercel&logoColor=white" alt="Lacuna"></a>
 </p>
 
 <br>
@@ -248,4 +185,4 @@ Right now I'm focused on late-stage M&A investing in healthtech and exploring AI
 <!-- FOOTER — animated wave                                     -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:C8A2C8,25:B19CD9,50:C8A8E9,75:D4A5E0,100:E8B4D9&height=120&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E0C8C4,25:D6CADD,50:C4B1C9,75:D6CADD,100:E0C8C4&height=120&section=footer" width="100%" />
