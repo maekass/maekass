@@ -131,7 +131,7 @@ I'm focused on making the investment case for avant-garde areas of medicine that
 <br>
 
 <p align="center">
-  <strong>Health Equity</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Oncology &amp; Genomics</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Women's Sport</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>M&A Intelligence</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Applied AI</strong>
+  <strong>Health Equity</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Oncology &amp; Genomics for Black Women</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Women's Sport</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>M&A Intelligence</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Applied AI</strong>
 </p>
 
 <p align="center">
