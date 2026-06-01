@@ -29,7 +29,7 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 </p>
 
 <p align="center">
-  <em>"Capital deployed with conviction is<br>the sharpest instrument of change."</em>
+  <em>"ACL tears, genetic markers, maternal mortality —<br>these are not soft issues. They are quantitatively investable."</em>
 </p>
 
 <p align="center">
@@ -47,9 +47,11 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 
 I'm Mae — quantitative finance professional, early-stage co-investor, and technologist. My career began in institutional finance — investment banking and public equities ($2B+ AUM, domestic and emerging markets) — and I now deploy capital and build software at the frontier of healthcare M&A, with 10+ early-stage investments across immuno-oncology, precision oncology, and genomic solutions in female-specific medicine, particular to Black women.
 
-I hold an MPH and have investigated maternal mortality and genetic predispositions for epidemiologies, chronic illness, and underserved disease — a focus shaped by lived experience: early detection of ovarian cancer, parental cancer, and years spent observing health inequity at close range. This domain expertise informs every investment thesis I write and every tool I build.
+My thesis is simple: the market has systematically mispriced woman-centric health. Genetic markers that predict disease in Black women, ACL biomechanics in female athletes, maternal mortality in the wealthiest country on earth — these are not soft issues. They are quantifiable, they are addressable, and they are investable. I make that case in the language capital markets understand.
 
-On the technical side, I architect platforms that apply network science, ML-driven deal scoring, and stochastic modeling to healthcare dealflow — making opaque markets legible and quantifiable. The throughline across my work is applying rigorous quantitative and computational methods to sectors the market has historically undervalued.
+I hold an MPH and have investigated maternal mortality and genetic predispositions for epidemiologies, chronic illness, and underserved disease — a focus shaped by lived experience: early detection of ovarian cancer, parental cancer, and years spent observing health inequity at close range. This domain expertise sharpens every investment thesis I write and every tool I build.
+
+On the technical side, I architect platforms that apply network science, ML-driven deal scoring, and stochastic modeling to healthcare dealflow — making opaque markets legible and quantifiable. The work is always the same: rigorous computational methods applied to sectors capital has overlooked.
 
 I am making the investment case for avant-garde areas of medicine that affect people I love and those I have yet to meet. Whether the path runs through applied AI, venture capital, female-specific medicine, sport innovation, or maternal mortality research — I welcome the conversation.
 
