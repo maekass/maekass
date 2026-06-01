@@ -203,6 +203,22 @@ I am making the investment case for avant-garde areas of medicine that affect pe
 <br>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
+<!-- BUILT WITH                                                 -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+
+<p align="center">
+  <sub>built with</sub><br>
+  <img src="https://img.shields.io/badge/Markdown-F0EEE9?style=flat-square&logo=markdown&logoColor=A899B0" alt="Markdown" />&nbsp;
+  <img src="https://img.shields.io/badge/HTML-F0EEE9?style=flat-square&logo=html5&logoColor=A899B0" alt="HTML" />&nbsp;
+  <img src="https://img.shields.io/badge/SVG-F0EEE9?style=flat-square&logo=svg&logoColor=A899B0" alt="SVG" />&nbsp;
+  <img src="https://img.shields.io/badge/GitHub_Actions-F0EEE9?style=flat-square&logo=githubactions&logoColor=A899B0" alt="GitHub Actions" />&nbsp;
+  <img src="https://img.shields.io/badge/Shields.io-F0EEE9?style=flat-square&logo=shieldsdotio&logoColor=A899B0" alt="Shields.io" />&nbsp;
+  <img src="https://img.shields.io/badge/Capsule_Render-F0EEE9?style=flat-square&logoColor=A899B0" alt="Capsule Render" />
+</p>
+
+<br>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
 <!-- FOOTER — animated wave                                     -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
