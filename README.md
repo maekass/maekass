@@ -29,7 +29,7 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 </p>
 
 <p align="center">
-  <em>"The most interesting problems live where<br>finance, science, sport, and technology converge."</em>
+  <em>"The most consequential work lives where<br>finance, science, sport, and technology converge."</em>
 </p>
 
 <p align="center">
@@ -45,13 +45,13 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 <table align="center" border="0" cellspacing="0" cellpadding="0">
 <tr><td width="600">
 
-I'm Mae — MPH and maternal mortality investigator. I come from institutional finance — investment banking and public equities ($2B+ AUM across domestic and emerging markets) — and now co-invest and syndicate early-stage in healthtech, with 10+ early-stage investments in immuno-oncology, precision oncology, and genomic solutions in female-specific medicine, particular to Black women.
+I'm Mae — MPH, maternal mortality investigator, and early-stage co-investor. My career began in institutional finance — investment banking and public equities ($2B+ AUM, domestic and emerging markets) — and has since turned toward the work I find most urgent: deploying capital into female-specific medicine, with 10+ early-stage investments across immuno-oncology, precision oncology, and genomic solutions, particular to Black women.
 
-My focus spans genetic predispositions and markers for epidemiologies, chronic illness, and underserved illness — shaped by loved ones' experiences, my own early-detection experience with ovarian cancer, parental cancer, and years of observing health inequity up close.
+I study genetic predispositions and markers for epidemiologies, chronic illness, and underserved disease — a focus shaped by lived experience: early detection of ovarian cancer, parental cancer, and years spent witnessing health inequity at close range.
 
-I build tools that make healthcare M&A, health equity research, and emerging science more visual, more interactive, and more honest about what the data actually says. My work sits at the intersection of quantitative finance, network science, and women's health — spaces that don't often overlap, which is exactly why they should.
+I also build. My tools bring healthcare M&A, health equity research, and emerging science into sharper view — more visual, more interactive, more honest about what the data reveals. The throughline is always the same: quantitative finance, network science, and women's health belong in the same room.
 
-I'm focused on making the investment case for avant-garde areas of medicine that affect people I love and those I have yet to meet. Whether that's female-specific medicine, AI, venture capital, sport innovation, or maternal mortality research — I'd love to connect.
+I am making the investment case for avant-garde areas of medicine that affect people I love and those I have yet to meet. Whether the path runs through female-specific medicine, applied AI, venture capital, sport innovation, or maternal mortality research — I welcome the conversation.
 
 </td></tr>
 </table>
@@ -74,7 +74,7 @@ I'm focused on making the investment case for avant-garde areas of medicine that
 <td width="300" valign="top">
   <a href="https://github.com/maekass/Lacuna"><strong>Lacuna</strong></a><br>
   <sub>Next.js 16 · React 19 · D3.js · TensorFlow.js</sub><br><br>
-  Network intelligence platform for FemTech M&A. Interactive force-directed graphs, exit pattern analytics, ML-based deal scoring, and health equity audits. <br><br>
+  M&A intelligence platform for female-specific medicine. Force-directed network graphs, exit pattern analytics, ML-driven deal scoring, and health equity audits. <br><br>
   <a href="https://lacuna-maekass.vercel.app">
     <img src="https://img.shields.io/badge/live_demo-lacuna-C4B1C9?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" />
   </a>
@@ -82,7 +82,7 @@ I'm focused on making the investment case for avant-garde areas of medicine that
 <td width="300" valign="top">
   <a href="https://github.com/maekass/SampleFund"><strong>SampleFund</strong></a><br>
   <sub>TypeScript · Full-Stack</sub><br><br>
-  End-to-end fund strategy and workflow tooling — from ideation through launch. Built for anyone starting an investment vehicle from scratch.
+  End-to-end fund strategy and workflow architecture — from thesis formation through launch. Designed for emerging managers building an investment vehicle from first principles.
 </td>
 </tr>
 
@@ -90,12 +90,12 @@ I'm focused on making the investment case for avant-garde areas of medicine that
 <td width="300" valign="top">
   <a href="https://github.com/maekass/intergenerational-mobility-fund"><strong>Intergenerational Mobility Fund</strong></a><br>
   <sub>Python · Jupyter · Policy Analysis</sub><br><br>
-  $564M blended-finance fund proposal. Granular market analysis across MA, DC, and VA with financial models, policy frameworks, and 11.4:1 ROI projections.
+  $564M blended-finance vehicle. Granular market analysis across MA, DC, and VA with original financial models, policy frameworks, and a projected 11.4:1 social ROI.
 </td>
 <td width="300" valign="top">
   <a href="https://github.com/maekass/montecarlosimulations"><strong>Monte Carlo Simulations</strong></a><br>
   <sub>Python</sub><br><br>
-  Stochastic modeling and Monte Carlo methods for financial forecasting and risk quantification.
+  Stochastic modeling for financial forecasting and risk quantification under uncertainty.
 </td>
 </tr>
 
@@ -103,7 +103,7 @@ I'm focused on making the investment case for avant-garde areas of medicine that
 <td width="300" valign="top">
   <a href="https://github.com/maekass/arcinvestmentanalysis"><strong>ARC Investment Analysis</strong></a><br>
   <sub>Quantitative Analysis</sub><br><br>
-  American Red Cross investment portfolio analysis — performance evaluation, allocation strategy, and risk assessment.
+  Investment portfolio analysis for the American Red Cross — performance evaluation, allocation strategy, and institutional risk assessment.
 </td>
 <td width="300" valign="top">
   &nbsp;
@@ -146,9 +146,10 @@ I'm focused on making the investment case for avant-garde areas of medicine that
 <br>
 
 <p align="center">
-  <sub><em>Also: I see women's sports and movement as a powerful, undervalued lens for understanding health outcomes —<br>
-  and an investment opportunity in its own right. I'm equally committed to producing a finite amalgam of athletic<br>
-  and medical health stories, inspired by Tonya Lewis Lee's</em> Aftershock <em>and the storytelling from</em> <a href="https://impactpartnersfilm.com">Impact Partners</a>.</sub>
+  <sub><em>I also view women's sport and movement as a profoundly undervalued lens for understanding health outcomes —<br>
+  and a compelling investment thesis in its own right. Alongside my analytical work, I am committed to producing<br>
+  a finite amalgam of athletic and medical health stories, drawn from the tradition of Tonya Lewis Lee's</em> Aftershock<br>
+  <em>and the narrative craft of</em> <a href="https://impactpartnersfilm.com">Impact Partners</a>.</sub>
 </p>
 
 <br>
