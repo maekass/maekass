@@ -72,49 +72,14 @@ I am making the investment case for avant-garde areas of medicine that affect pe
 
 <br>
 
-<table align="center" border="0" cellspacing="0" cellpadding="16">
-
-<tr>
-<td width="300" valign="top">
+<p align="center">
   <a href="https://github.com/maekass/Lacuna"><strong>Lacuna</strong></a><br>
   <sub>Next.js 16 · React 19 · D3.js · TensorFlow.js</sub><br><br>
-  Quantitative M&A intelligence platform. Force-directed network graphs, exit pattern analytics, ML-driven deal scoring, and fairness audits — applied to female-specific medicine. <br><br>
+  Quantitative M&A intelligence platform. Force-directed network graphs, exit pattern analytics, ML-driven deal scoring, and fairness audits — applied to female-specific medicine.<br><br>
   <a href="https://lacuna-maekass.vercel.app">
     <img src="https://img.shields.io/badge/live_demo-lacuna-C4B1C9?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" />
   </a>
-</td>
-<td width="300" valign="top">
-  <a href="https://github.com/maekass/SampleFund"><strong>SampleFund</strong></a><br>
-  <sub>TypeScript · Full-Stack</sub><br><br>
-  End-to-end fund strategy and workflow architecture — from thesis formation through launch. Designed for emerging managers building an investment vehicle from first principles.
-</td>
-</tr>
-
-<tr>
-<td width="300" valign="top">
-  <a href="https://github.com/maekass/intergenerational-mobility-fund"><strong>Intergenerational Mobility Fund</strong></a><br>
-  <sub>Python · Jupyter · Policy Analysis</sub><br><br>
-  $564M blended-finance vehicle with original financial models, policy analysis across MA, DC, and VA, and a projected 11.4:1 ROI. Quantitative structuring from first principles.
-</td>
-<td width="300" valign="top">
-  <a href="https://github.com/maekass/montecarlosimulations"><strong>Monte Carlo Simulations</strong></a><br>
-  <sub>Python</sub><br><br>
-  Stochastic modeling for financial forecasting and risk quantification under uncertainty.
-</td>
-</tr>
-
-<tr>
-<td width="300" valign="top">
-  <a href="https://github.com/maekass/arcinvestmentanalysis"><strong>ARC Investment Analysis</strong></a><br>
-  <sub>Quantitative Analysis</sub><br><br>
-  Investment portfolio analysis for the American Red Cross — performance evaluation, allocation strategy, and institutional risk assessment.
-</td>
-<td width="300" valign="top">
-  &nbsp;
-</td>
-</tr>
-
-</table>
+</p>
 
 <br>
 
