@@ -6,7 +6,7 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 <!-- HEADER — animated wave gradient                            -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E0C8C4,25:D6CADD,50:C4B1C9,75:D6CADD,100:E0C8C4&height=200&section=header&text=Mae%20Kass&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=quantitative%20finance%20%C2%B7%20applied%20AI%20%C2%B7%20early-stage%20co-investor&descSize=18&descColor=ffffff&descAlignY=55&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E0C8C4,25:D6CADD,50:C4B1C9,75:D6CADD,100:E0C8C4&height=200&section=header&text=Mae%20Kass&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=quantitative%20finance%20%C2%B7%20applied%20AI%20%C2%B7%20early-stage%20co-investor&descSize=18&descColor=ffffff&descAlignY=55&animation=fadeIn&fontAlign=50&descAlign=50" width="100%" />
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- TYPING TAGLINE                                             -->
@@ -42,8 +42,7 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 <!-- ABOUT — warm, editorial voice                              -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<table align="center" border="0" cellspacing="0" cellpadding="0">
-<tr><td width="600">
+<p align="center">
 
 I'm Mae — quantitative finance professional, early-stage co-investor, and technologist. My career began in institutional finance — investment banking and public equities ($2B+ AUM, domestic and emerging markets) — and I now deploy capital and build software at the frontier of healthcare M&A, with 10+ early-stage investments across immuno-oncology, precision oncology, and genomic solutions in female-specific medicine, particular to Black women.
 
@@ -55,8 +54,7 @@ On the technical side, I architect platforms that apply network science, ML-driv
 
 I am making the investment case for avant-garde areas of medicine that affect people I love and those I have yet to meet. Whether the path runs through applied AI, venture capital, female-specific medicine, sport innovation, or maternal mortality research — I welcome the conversation.
 
-</td></tr>
-</table>
+</p>
 
 <br>
 
