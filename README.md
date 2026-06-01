@@ -33,7 +33,11 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 </p>
 
 <p align="center">
-  <img src="./assets/pearl-divider.svg" width="400" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider.svg" />
+    <img alt="pearl divider" src="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider.svg" width="500" />
+  </picture>
 </p>
 
 <br>
@@ -125,7 +129,11 @@ I am making the investment case for avant-garde areas of medicine that affect pe
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="./assets/pearl-divider.svg" width="400" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider.svg" />
+    <img alt="pearl divider" src="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider.svg" width="500" />
+  </picture>
 </p>
 
 <br>
@@ -159,7 +167,11 @@ I am making the investment case for avant-garde areas of medicine that affect pe
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="./assets/pearl-divider.svg" width="400" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider.svg" />
+    <img alt="pearl divider" src="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider.svg" width="500" />
+  </picture>
 </p>
 
 <br>

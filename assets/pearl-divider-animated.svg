@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 60" width="600" height="60">
+  <defs>
+    <radialGradient id="pearl-lg" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#F8F4F0;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#EDE4DF;stop-opacity:1" />
+      <stop offset="85%" style="stop-color:#E0D5CE;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C4B1C9;stop-opacity:0.9" />
+    </radialGradient>
+    <radialGradient id="pearl-md" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#F5F0EC;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#EAE0DA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D6CADD;stop-opacity:0.85" />
+    </radialGradient>
+    <radialGradient id="pearl-sm" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#F0EAE4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D6CADD;stop-opacity:0.8" />
+    </radialGradient>
+    <radialGradient id="pearl-shine" cx="30%" cy="25%" r="30%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0" />
+    </radialGradient>
+    <filter id="pearl-shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#A899B0" flood-opacity="0.4" />
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C4B1C9;stop-opacity:0" />
+      <stop offset="10%" style="stop-color:#C4B1C9;stop-opacity:0.4" />
+      <stop offset="50%" style="stop-color:#A899B0;stop-opacity:0.8" />
+      <stop offset="90%" style="stop-color:#C4B1C9;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#C4B1C9;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes float-center {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-3px); }
+    }
+    @keyframes float-side {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-2px); }
+    }
+    @keyframes float-accent {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-1.5px); }
+    }
+    @keyframes shimmer {
+      0%, 100% { opacity: 0.7; }
+      50% { opacity: 1; }
+    }
+    @keyframes line-draw {
+      0% { stroke-dashoffset: 500; }
+      100% { stroke-dashoffset: 0; }
+    }
+    .center-pearl {
+      animation: float-center 3s ease-in-out infinite;
+      transform-origin: 300px 30px;
+    }
+    .left-pearl {
+      animation: float-side 3s ease-in-out infinite 0.3s;
+      transform-origin: 190px 30px;
+    }
+    .right-pearl {
+      animation: float-side 3s ease-in-out infinite 0.6s;
+      transform-origin: 410px 30px;
+    }
+    .accent-left {
+      animation: float-accent 3s ease-in-out infinite 0.5s;
+      transform-origin: 130px 30px;
+    }
+    .accent-right {
+      animation: float-accent 3s ease-in-out infinite 0.8s;
+      transform-origin: 470px 30px;
+    }
+    .divider-line {
+      stroke-dasharray: 500;
+      animation: line-draw 2s ease-out forwards, shimmer 4s ease-in-out infinite 2s;
+    }
+  </style>
+
+  <!-- connecting line -->
+  <line class="divider-line" x1="40" y1="30" x2="560" y2="30" stroke="url(#line-grad)" stroke-width="1.5" />
+
+  <!-- accent pearl far left -->
+  <g class="accent-left">
+    <circle cx="130" cy="30" r="4" fill="url(#pearl-sm)" opacity="0.85" filter="url(#pearl-shadow)" />
+    <circle cx="130" cy="30" r="4" fill="url(#pearl-shine)" />
+  </g>
+
+  <!-- small pearl left -->
+  <g class="left-pearl">
+    <circle cx="190" cy="30" r="8" fill="url(#pearl-md)" filter="url(#pearl-shadow)" />
+    <circle cx="190" cy="30" r="8" fill="url(#pearl-shine)" />
+  </g>
+
+  <!-- center pearl -->
+  <g class="center-pearl" filter="url(#glow)">
+    <circle cx="300" cy="30" r="14" fill="url(#pearl-lg)" filter="url(#pearl-shadow)" />
+    <circle cx="300" cy="30" r="14" fill="url(#pearl-shine)" />
+  </g>
+
+  <!-- small pearl right -->
+  <g class="right-pearl">
+    <circle cx="410" cy="30" r="8" fill="url(#pearl-md)" filter="url(#pearl-shadow)" />
+    <circle cx="410" cy="30" r="8" fill="url(#pearl-shine)" />
+  </g>
+
+  <!-- accent pearl far right -->
+  <g class="accent-right">
+    <circle cx="470" cy="30" r="4" fill="url(#pearl-sm)" opacity="0.85" filter="url(#pearl-shadow)" />
+    <circle cx="470" cy="30" r="4" fill="url(#pearl-shine)" />
+  </g>
+</svg>
