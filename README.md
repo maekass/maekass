@@ -1,12 +1,12 @@
 <!--
-Keywords: Mae Kass, quantitative analysis, health equity, M&A intelligence, FemTech, healthtech, machine learning, network visualization, social impact investing, AI fellowship, women's health, oncology, portfolio
+Keywords: Mae Kass, MPH, genetics market analysis, maternal mortality, immuno-oncology, precision oncology, female genetic solutions, Black women's health, quantitative analysis, health equity, M&A intelligence, FemTech, healthtech, machine learning, investor, network visualization, social impact investing, AI fellowship, women's health, oncology, portfolio
 -->
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- HEADER — animated wave gradient                            -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E0C8C4,25:D6CADD,50:C4B1C9,75:D6CADD,100:E0C8C4&height=200&section=header&text=Mae%20Kass&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=quantitative%20analyst%20%26%20builder&descSize=18&descColor=ffffff&descAlignY=55&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E0C8C4,25:D6CADD,50:C4B1C9,75:D6CADD,100:E0C8C4&height=200&section=header&text=Mae%20Kass&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=quantitative%20analyst%20%C2%B7%20investor%20%C2%B7%20builder&descSize=18&descColor=ffffff&descAlignY=55&animation=fadeIn" width="100%" />
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- TYPING TAGLINE                                             -->
@@ -14,7 +14,7 @@ Keywords: Mae Kass, quantitative analysis, health equity, M&A intelligence, FemT
 
 <p align="center">
   <a href="https://github.com/maekass">
-    <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=22&duration=4000&pause=1200&color=A899B0&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=70&lines=building+at+the+intersection+of+health+%26+intelligence;M%26A+analytics+%C2%B7+health+equity+%C2%B7+applied+ML;the+future+of+women's+health+is+quantitative" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=22&duration=4000&pause=1200&color=A899B0&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=70&lines=MPH+%C2%B7+genetics+market+analyst+%C2%B7+maternal+mortality+investigator;20%2B+investments+in+immuno-oncology%2C+precision+oncology+%26+female+genetic+solutions;the+future+of+women's+health+is+quantitative" alt="Typing SVG" />
   </a>
 </p>
 
@@ -45,11 +45,11 @@ Keywords: Mae Kass, quantitative analysis, health equity, M&A intelligence, FemT
 <table align="center" border="0" cellspacing="0" cellpadding="0">
 <tr><td width="600">
 
-I'm Mae — I build tools that make healthcare M&A and health equity research more visual, more interactive, and more honest about what the data actually says.
+I'm Mae — MPH, genetics market analyst, and maternal mortality investigator with 20+ investments in immuno-oncology, precision oncology, and scientific female genetic solutions particular to Black women.
 
-My work sits at the intersection of quantitative finance, network science, and women's health — spaces that don't often overlap, which is exactly why they should. I care deeply about rigorous analysis that serves real people, not just slide decks.
+I build tools that make healthcare M&A and health equity research more visual, more interactive, and more honest about what the data actually says. My work sits at the intersection of quantitative finance, network science, and women's health — spaces that don't often overlap, which is exactly why they should.
 
-Right now I'm focused on late-stage M&A investing in healthtech and exploring AI fellowships that push applied ML into healthcare deal analysis. If you're working in this space, I'd love to connect.
+I'm focused on making the investment case for avant-garde areas of medicine that affect people I love and those I have yet to meet. If you're working in this space, I'd love to connect.
 
 </td></tr>
 </table>
@@ -129,11 +129,11 @@ Right now I'm focused on late-stage M&A investing in healthtech and exploring AI
 <br>
 
 <p align="center">
-  <strong>M&A Intelligence</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Health Equity</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Applied ML</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Social Impact</strong>
+  <strong>M&A Intelligence</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Genetics Markets</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Maternal Mortality</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Immuno-Oncology</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Applied ML</strong>
 </p>
 
 <p align="center">
-  <sub>deal flow analytics · network visualization · exit pattern modeling · Black women's health<br>
+  <sub>deal flow analytics · precision oncology · female genetic solutions · Black women's health<br>
   clinical trial representation · fairness audits · causal inference · blended-finance design</sub>
 </p>
 
