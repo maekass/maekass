@@ -1,0 +1,19 @@
+<svg width="1200" height="200" viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="header-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0C8C4" />
+      <stop offset="25%" style="stop-color:#D6CADD" />
+      <stop offset="50%" style="stop-color:#C4B1C9" />
+      <stop offset="75%" style="stop-color:#D6CADD" />
+      <stop offset="100%" style="stop-color:#E0C8C4" />
+    </linearGradient>
+    <!-- wave path clip -->
+    <clipPath id="wave-clip">
+      <path d="M0 0 H1200 V170 Q1100 200 1000 180 Q850 155 700 175 Q550 195 400 170 Q250 145 100 175 Q50 185 0 180 Z" />
+    </clipPath>
+  </defs>
+  <!-- gradient background with wave bottom -->
+  <rect width="1200" height="200" fill="url(#header-grad)" clip-path="url(#wave-clip)" />
+  <!-- name text — Bodoni/Didot serif -->
+  <text x="600" y="105" font-family="'Bodoni MT', Didot, 'Times New Roman', serif" font-size="56" font-weight="300" fill="white" text-anchor="middle" letter-spacing="1">Mae Kass</text>
+</svg>
