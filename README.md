@@ -6,7 +6,7 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 <!-- HEADER — animated wave gradient                            -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E0C8C4,25:D6CADD,50:C4B1C9,75:D6CADD,100:E0C8C4&height=200&section=header&text=Mae%20Kass&fontSize=52&fontColor=ffffff&fontAlignY=40&animation=fadeIn&fontAlign=50" width="100%" />
+<img src="./assets/header.svg" width="100%" />
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- TYPING TAGLINE                                             -->
@@ -222,4 +222,4 @@ I am making the investment case for avant-garde areas of medicine that affect pe
 <!-- FOOTER — animated wave                                     -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E0C8C4,25:D6CADD,50:C4B1C9,75:D6CADD,100:E0C8C4&height=120&section=footer" width="100%" />
+<img src="./assets/footer.svg" width="100%" />
