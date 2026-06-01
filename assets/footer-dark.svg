@@ -1,0 +1,15 @@
+<svg width="1200" height="120" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footer-grad-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3D2E3A" />
+      <stop offset="25%" style="stop-color:#2E2636" />
+      <stop offset="50%" style="stop-color:#4A3650" />
+      <stop offset="75%" style="stop-color:#2E2636" />
+      <stop offset="100%" style="stop-color:#3D2E3A" />
+    </linearGradient>
+    <clipPath id="wave-footer-dark">
+      <path d="M0 40 Q100 0 200 25 Q350 55 500 30 Q650 5 800 35 Q950 60 1100 20 Q1150 10 1200 30 V120 H0 Z" />
+    </clipPath>
+  </defs>
+  <rect width="1200" height="120" fill="url(#footer-grad-dark)" clip-path="url(#wave-footer-dark)" />
+</svg>

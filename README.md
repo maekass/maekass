@@ -6,7 +6,11 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 <!-- HEADER — animated wave gradient                            -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<img src="./assets/header.svg" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header.svg" />
+  <img alt="Mae Kass" src="./assets/header.svg" width="100%" />
+</picture>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- TYPING TAGLINE                                             -->
@@ -14,7 +18,7 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 
 <p align="center">
   <a href="https://github.com/maekass">
-    <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=22&duration=4000&pause=1200&color=A899B0&center=true&vCenter=true&repeat=true&width=820&height=35&lines=quantitative+finance+%C2%B7+applied+AI+%C2%B7+early-stage+co-investor;investment+banking+%C2%B7+%242B%2B+AUM+public+equities+%C2%B7+early-stage+syndicator;10%2B+co-investments+in+oncology%2C+genomics+%26+female-specific+medicine" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Bodoni+Moda&weight=400&size=22&duration=4000&pause=1200&color=A899B0&center=true&vCenter=true&repeat=true&width=820&height=35&lines=quantitative+finance+%C2%B7+applied+AI+%C2%B7+early-stage+co-investor;investment+banking+%C2%B7+%242B%2B+AUM+public+equities+%C2%B7+early-stage+syndicator;10%2B+co-investments+in+oncology%2C+genomics+%26+female-specific+medicine" alt="Typing SVG" />
   </a>
 </p>
 
@@ -73,9 +77,13 @@ I am making the investment case for avant-garde areas of medicine that affect pe
 <br>
 
 <p align="center">
-  <a href="https://github.com/maekass/Lacuna"><strong>Lacuna</strong></a><br>
-  <sub>Next.js 16 · React 19 · D3.js · TensorFlow.js</sub><br><br>
-  Quantitative M&A intelligence platform. Force-directed network graphs, exit pattern analytics, ML-driven deal scoring, and fairness audits — applied to female-specific medicine.<br><br>
+  <a href="https://github.com/maekass/Lacuna">
+    <img src="./assets/glass-card.svg" width="700" alt="Lacuna — Quantitative M&A Intelligence" />
+  </a>
+</p>
+
+<p align="center">
+  Force-directed network graphs, exit pattern analytics, ML-driven deal scoring, and fairness audits — applied to female-specific medicine.<br><br>
   <a href="https://lacuna-maekass.vercel.app">
     <img src="https://img.shields.io/badge/live_demo-lacuna-C4B1C9?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" />
   </a>
@@ -190,7 +198,11 @@ I am making the investment case for avant-garde areas of medicine that affect pe
   <img src="https://img.shields.io/badge/SVG-F0EEE9?style=flat-square&logo=svg&logoColor=A899B0" alt="SVG" />&nbsp;
   <img src="https://img.shields.io/badge/GitHub_Actions-F0EEE9?style=flat-square&logo=githubactions&logoColor=A899B0" alt="GitHub Actions" />&nbsp;
   <img src="https://img.shields.io/badge/Shields.io-F0EEE9?style=flat-square&logo=shieldsdotio&logoColor=A899B0" alt="Shields.io" />&nbsp;
-  <img src="https://img.shields.io/badge/Capsule_Render-F0EEE9?style=flat-square&logoColor=A899B0" alt="Capsule Render" />
+  <img src="https://img.shields.io/badge/Glassmorphism-F0EEE9?style=flat-square&logoColor=A899B0" alt="Glassmorphism" />
+</p>
+
+<p align="center">
+  <sub><em>2026 design: Bodoni Moda typography · neumorphic pearl accents · motion design · dark-mode aware · sustainable local SVGs</em></sub>
 </p>
 
 <br>
@@ -199,4 +211,8 @@ I am making the investment case for avant-garde areas of medicine that affect pe
 <!-- FOOTER — animated wave                                     -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<img src="./assets/footer.svg" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/footer.svg" />
+  <img alt="footer" src="./assets/footer.svg" width="100%" />
+</picture>
