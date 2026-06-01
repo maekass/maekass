@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 30" width="600" height="30">
+  <defs>
+    <linearGradient id="fl-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E0C8C4;stop-opacity:0" />
+      <stop offset="20%" style="stop-color:#D6CADD;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#C4B1C9;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#D6CADD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0C8C4;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  <path d="
+    M 100,15
+    C 140,15 160,5 200,5
+    C 240,5 250,15 270,15
+    C 290,15 295,10 300,10
+    C 305,10 310,15 330,15
+    C 350,15 360,25 400,25
+    C 440,25 460,15 500,15
+  " fill="none" stroke="url(#fl-gradient)" stroke-width="1.2" stroke-linecap="round" />
+  <!-- center diamond ornament -->
+  <path d="M 296,10 L 300,6 L 304,10 L 300,14 Z" fill="#C4B1C9" opacity="0.8" />
+</svg>
