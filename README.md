@@ -26,8 +26,6 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 <!-- PULL QUOTE — editorial epigraph                            -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<br>
-
 <p align="center">
   <img src="./assets/ribbon.svg" width="15" />
 </p>
@@ -38,13 +36,11 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider.svg" />
     <img alt="pearl divider" src="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider.svg" width="500" />
   </picture>
 </p>
-
-<br>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- ABOUT — warm, editorial voice                              -->
@@ -64,8 +60,6 @@ I am making the investment case for avant-garde areas of medicine that affect pe
 
 </p>
 
-<br>
-
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- SELECTED WORK — film strip border aesthetic                -->
 <!-- ═══════════════════════════════════════════════════════════ -->
@@ -74,28 +68,25 @@ I am making the investment case for avant-garde areas of medicine that affect pe
   <img src="./assets/film-strip.svg" width="700" />
 </p>
 
-<br>
-
 <p align="center">
   <a href="https://github.com/maekass/Lacuna">
-    <img src="./assets/glass-card.svg" width="700" alt="Lacuna — Quantitative M&A Intelligence" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/glass-card-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/glass-card.svg" />
+      <img src="./assets/glass-card.svg" width="700" alt="Lacuna — Quantitative M&A Intelligence" />
+    </picture>
   </a>
 </p>
 
 <p align="center">
-  Force-directed network graphs, exit pattern analytics, ML-driven deal scoring, and fairness audits — applied to female-specific medicine.<br><br>
   <a href="https://lacuna-maekass.vercel.app">
     <img src="https://img.shields.io/badge/live_demo-lacuna-C4B1C9?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" />
   </a>
 </p>
 
-<br>
-
 <p align="center">
   <img src="./assets/film-strip.svg" width="700" />
 </p>
-
-<br>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- FOCUS AREAS — elegant minimal list                         -->
@@ -103,13 +94,11 @@ I am making the investment case for avant-garde areas of medicine that affect pe
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider.svg" />
     <img alt="pearl divider" src="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider.svg" width="500" />
   </picture>
 </p>
-
-<br>
 
 <p align="center">
   <strong>Quantitative Finance</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Applied AI</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>M&A Intelligence</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Oncology &amp; Genomics</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Women's Sport</strong>
@@ -124,8 +113,6 @@ I am making the investment case for avant-garde areas of medicine that affect pe
 <!-- ALSO — editorial aside                                     -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<br>
-
 <p align="center">
   <sub><em>I also view women's sport and movement as a profoundly undervalued lens for understanding health outcomes —<br>
   and a compelling investment thesis in its own right. Alongside my analytical work, I am committed to producing<br>
@@ -133,21 +120,9 @@ I am making the investment case for avant-garde areas of medicine that affect pe
   <em>and the narrative craft of</em> <a href="https://impactpartnersfilm.com">Impact Partners</a>.</sub>
 </p>
 
-<br>
-
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- CONTRIBUTION SNAKE                                         -->
 <!-- ═══════════════════════════════════════════════════════════ -->
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider.svg" />
-    <img alt="pearl divider" src="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider.svg" width="500" />
-  </picture>
-</p>
-
-<br>
 
 <!--
   Contribution snake animation — auto-generated by GitHub Actions.
@@ -163,8 +138,6 @@ I am making the investment case for avant-garde areas of medicine that affect pe
   </picture>
 </p>
 
-<br>
-
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- CONNECT                                                    -->
 <!-- ═══════════════════════════════════════════════════════════ -->
@@ -175,8 +148,6 @@ I am making the investment case for avant-garde areas of medicine that affect pe
   <a href="https://lacuna-maekass.vercel.app"><img src="https://img.shields.io/badge/Lacuna_Demo-E0C8C4?style=for-the-badge&logo=vercel&logoColor=white" alt="Lacuna"></a>
 </p>
 
-<br>
-
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- SIGNATURE                                                  -->
 <!-- ═══════════════════════════════════════════════════════════ -->
@@ -184,8 +155,6 @@ I am making the investment case for avant-garde areas of medicine that affect pe
 <p align="center">
   <img src="./assets/signature.svg" width="220" />
 </p>
-
-<br>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- BUILT WITH                                                 -->
@@ -198,14 +167,12 @@ I am making the investment case for avant-garde areas of medicine that affect pe
   <img src="https://img.shields.io/badge/SVG-F0EEE9?style=flat-square&logo=svg&logoColor=A899B0" alt="SVG" />&nbsp;
   <img src="https://img.shields.io/badge/GitHub_Actions-F0EEE9?style=flat-square&logo=githubactions&logoColor=A899B0" alt="GitHub Actions" />&nbsp;
   <img src="https://img.shields.io/badge/Shields.io-F0EEE9?style=flat-square&logo=shieldsdotio&logoColor=A899B0" alt="Shields.io" />&nbsp;
-  <img src="https://img.shields.io/badge/Glassmorphism-F0EEE9?style=flat-square&logoColor=A899B0" alt="Glassmorphism" />
+  <img src="https://img.shields.io/badge/Glassmorphism-F0EEE9?style=flat-square&logo=css3&logoColor=A899B0" alt="Glassmorphism" />
 </p>
 
 <p align="center">
   <sub><em>2026 design: Bodoni Moda typography · neumorphic pearl accents · motion design · dark-mode aware · sustainable local SVGs</em></sub>
 </p>
-
-<br>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- FOOTER — animated wave                                     -->

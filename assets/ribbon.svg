@@ -6,6 +6,6 @@
     </linearGradient>
   </defs>
   <!-- awareness ribbon -->
-  <path d="M 15,38 C 15,38 8,20 5,12 C 2,4 10,0 15,8 C 20,0 28,4 25,12 C 22,20 15,38 15,38 Z" fill="url(#rb-grad)" opacity="0.6" />
+  <path d="M 15,38 C 15,38 8,20 5,12 C 2,4 10,0 15,8 C 20,0 28,4 25,12 C 22,20 15,38 15,38 Z" fill="url(#rb-grad)" opacity="0.85" />
   <path d="M 15,38 C 15,38 8,20 5,12 C 2,4 10,0 15,8 C 20,0 28,4 25,12 C 22,20 15,38 15,38 Z" fill="none" stroke="#C4B1C9" stroke-width="0.8" />
 </svg>
