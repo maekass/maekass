@@ -1,12 +1,12 @@
 <!--
-Keywords: Mae Kass, MPH, genetics market analysis, maternal mortality, immuno-oncology, precision oncology, female genetic solutions, Black women's health, quantitative analysis, health equity, M&A intelligence, FemTech, healthtech, machine learning, investor, network visualization, social impact investing, AI fellowship, women's health, oncology, portfolio
+Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, early-stage investor, healthtech, genetics market analysis, maternal mortality, immuno-oncology, precision oncology, genomic solutions, Black women's health, quantitative analysis, health equity, M&A intelligence, FemTech, machine learning, investor, network visualization, social impact investing, AI fellowship, women's health, oncology, portfolio
 -->
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- HEADER — animated wave gradient                            -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E0C8C4,25:D6CADD,50:C4B1C9,75:D6CADD,100:E0C8C4&height=200&section=header&text=Mae%20Kass&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=quantitative%20analyst%20%C2%B7%20investor%20%C2%B7%20builder&descSize=18&descColor=ffffff&descAlignY=55&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E0C8C4,25:D6CADD,50:C4B1C9,75:D6CADD,100:E0C8C4&height=200&section=header&text=Mae%20Kass&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=MPH%20%C2%B7%20healthtech%20investor%20%C2%B7%20builder&descSize=18&descColor=ffffff&descAlignY=55&animation=fadeIn" width="100%" />
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- TYPING TAGLINE                                             -->
@@ -14,7 +14,7 @@ Keywords: Mae Kass, MPH, genetics market analysis, maternal mortality, immuno-on
 
 <p align="center">
   <a href="https://github.com/maekass">
-    <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=22&duration=4000&pause=1200&color=A899B0&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=70&lines=MPH+%C2%B7+genetics+market+analyst+%C2%B7+maternal+mortality+investigator;20%2B+investments+in+immuno-oncology%2C+precision+oncology+%26+female+genetic+solutions;the+future+of+women's+health+is+quantitative" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=22&duration=4000&pause=1200&color=A899B0&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=70&lines=investment+banking+%C2%B7+%242B%2B+AUM+public+equities+%C2%B7+early-stage+healthtech;20%2B+investments+in+immuno-oncology%2C+precision+oncology+%26+women's+genomics;MPH+%C2%B7+genetics+market+analyst+%C2%B7+maternal+mortality+investigator" alt="Typing SVG" />
   </a>
 </p>
 
@@ -29,7 +29,7 @@ Keywords: Mae Kass, MPH, genetics market analysis, maternal mortality, immuno-on
 </p>
 
 <p align="center">
-  <em>"The best intelligence platforms don't just show you data —<br>they show you the relationships hiding inside it."</em>
+  <em>"The maternal mortality crisis isn't a data problem —<br>it's a visibility problem."</em>
 </p>
 
 <p align="center">
@@ -45,7 +45,7 @@ Keywords: Mae Kass, MPH, genetics market analysis, maternal mortality, immuno-on
 <table align="center" border="0" cellspacing="0" cellpadding="0">
 <tr><td width="600">
 
-I'm Mae — MPH, genetics market analyst, and maternal mortality investigator with 20+ investments in immuno-oncology, precision oncology, and scientific female genetic solutions particular to Black women.
+I'm Mae — MPH, genetics market analyst, and maternal mortality investigator. I come from institutional finance — investment banking and public equities ($2B+ AUM across domestic and emerging markets) — and now invest early-stage in healthtech, with 20+ investments in immuno-oncology, precision oncology, and genomic solutions for women's health, particular to Black women.
 
 I build tools that make healthcare M&A and health equity research more visual, more interactive, and more honest about what the data actually says. My work sits at the intersection of quantitative finance, network science, and women's health — spaces that don't often overlap, which is exactly why they should.
 
@@ -129,11 +129,11 @@ I'm focused on making the investment case for avant-garde areas of medicine that
 <br>
 
 <p align="center">
-  <strong>M&A Intelligence</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Genetics Markets</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Maternal Mortality</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Immuno-Oncology</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Applied ML</strong>
+  <strong>Immuno-Oncology Investing</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Maternal Mortality</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>M&A Intelligence</strong>
 </p>
 
 <p align="center">
-  <sub>deal flow analytics · precision oncology · female genetic solutions · Black women's health<br>
+  <sub>precision oncology · women's genomics · Black women's health · deal flow analytics<br>
   clinical trial representation · fairness audits · causal inference · blended-finance design</sub>
 </p>
 
