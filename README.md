@@ -147,8 +147,8 @@ I'm focused on making the investment case for avant-garde areas of medicine that
 
 <p align="center">
   <sub><em>Also: I see women's sports and movement as a powerful, undervalued lens for understanding health outcomes —<br>
-  and an investment opportunity in its own right. I'm equally committed to financing and producing social health<br>
-  documentaries, inspired by Tonya Lewis Lee's</em> Aftershock <em>and the storytelling from</em> <a href="https://impactpartnersfilm.com">Impact Partners</a>.</sub>
+  and an investment opportunity in its own right. I'm equally committed to producing a finite amalgam of athletic<br>
+  and medical health stories, inspired by Tonya Lewis Lee's</em> Aftershock <em>and the storytelling from</em> <a href="https://impactpartnersfilm.com">Impact Partners</a>.</sub>
 </p>
 
 <br>
