@@ -45,7 +45,7 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 <table align="center" border="0" cellspacing="0" cellpadding="0">
 <tr><td width="600">
 
-I'm Mae — MPH and maternal mortality investigator. I come from institutional finance — investment banking and public equities ($2B+ AUM across domestic and emerging markets) — and now co-invest and syndicate early-stage in healthtech, with 10+ early-stage investments in immuno-oncology, precision oncology, and genomic solutions in female biology, particular to Black women.
+I'm Mae — MPH and maternal mortality investigator. I come from institutional finance — investment banking and public equities ($2B+ AUM across domestic and emerging markets) — and now co-invest and syndicate early-stage in healthtech, with 10+ early-stage investments in immuno-oncology, precision oncology, and genomic solutions in female-specific medicine, particular to Black women.
 
 My focus spans genetic predispositions and markers for epidemiologies, chronic illness, and underserved illness — shaped by loved ones' experiences, my own early-detection experience with ovarian cancer, parental cancer, and years of observing health inequity up close. I also see women's sports and movement as a powerful, undervalued lens for understanding health outcomes — and an investment opportunity in its own right.
 
@@ -53,7 +53,7 @@ I build tools that make healthcare M&A, health equity research, and emerging sci
 
 I'm also committed to financing and producing social health documentaries — inspired by work like Tonya Lewis Lee's *Aftershock* and the storytelling coming out of [Impact Partners](https://impactpartnersfilm.com) — because the investment case for health equity is also a narrative one.
 
-I'm focused on making the investment case for avant-garde areas of medicine that affect people I love and those I have yet to meet. Whether that's female biology, AI, venture capital, sport innovation, or maternal mortality research — I'd love to connect.
+I'm focused on making the investment case for avant-garde areas of medicine that affect people I love and those I have yet to meet. Whether that's female-specific medicine, AI, venture capital, sport innovation, or maternal mortality research — I'd love to connect.
 
 </td></tr>
 </table>
@@ -137,7 +137,7 @@ I'm focused on making the investment case for avant-garde areas of medicine that
 </p>
 
 <p align="center">
-  <sub>female biology · precision oncology · women's genomics · female athletic performance · maternal mortality<br>
+  <sub>female-specific medicine · precision oncology · women's genomics · female athletic performance · maternal mortality<br>
   venture capital · sport ownership · social health documentary · Black women's health · impact film</sub>
 </p>
 
