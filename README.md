@@ -47,11 +47,9 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 
 I'm Mae — MPH and maternal mortality investigator. I come from institutional finance — investment banking and public equities ($2B+ AUM across domestic and emerging markets) — and now co-invest and syndicate early-stage in healthtech, with 10+ early-stage investments in immuno-oncology, precision oncology, and genomic solutions in female-specific medicine, particular to Black women.
 
-My focus spans genetic predispositions and markers for epidemiologies, chronic illness, and underserved illness — shaped by loved ones' experiences, my own early-detection experience with ovarian cancer, parental cancer, and years of observing health inequity up close. I also see women's sports and movement as a powerful, undervalued lens for understanding health outcomes — and an investment opportunity in its own right.
+My focus spans genetic predispositions and markers for epidemiologies, chronic illness, and underserved illness — shaped by loved ones' experiences, my own early-detection experience with ovarian cancer, parental cancer, and years of observing health inequity up close.
 
 I build tools that make healthcare M&A, health equity research, and emerging science more visual, more interactive, and more honest about what the data actually says. My work sits at the intersection of quantitative finance, network science, and women's health — spaces that don't often overlap, which is exactly why they should.
-
-I'm also committed to financing and producing social health documentaries — inspired by work like Tonya Lewis Lee's *Aftershock* and the storytelling coming out of [Impact Partners](https://impactpartnersfilm.com) — because the investment case for health equity is also a narrative one.
 
 I'm focused on making the investment case for avant-garde areas of medicine that affect people I love and those I have yet to meet. Whether that's female-specific medicine, AI, venture capital, sport innovation, or maternal mortality research — I'd love to connect.
 
@@ -141,9 +139,19 @@ I'm focused on making the investment case for avant-garde areas of medicine that
   venture capital · sport ownership · social health documentary · Black women's health · impact film</sub>
 </p>
 
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- ALSO — editorial aside                                     -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+
 <br>
 
+<p align="center">
+  <sub><em>Also: I see women's sports and movement as a powerful, undervalued lens for understanding health outcomes —<br>
+  and an investment opportunity in its own right. I'm equally committed to financing and producing social health<br>
+  documentaries, inspired by Tonya Lewis Lee's</em> Aftershock <em>and the storytelling from</em> <a href="https://impactpartnersfilm.com">Impact Partners</a>.</sub>
+</p>
 
+<br>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- CONTRIBUTION SNAKE                                         -->
