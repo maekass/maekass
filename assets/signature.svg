@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100" width="300" height="100">
+  <defs>
+    <linearGradient id="sig-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C8A8E9;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#D4A5E0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8B4D9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes draw {
+      from { stroke-dashoffset: 800; }
+      to { stroke-dashoffset: 0; }
+    }
+    .signature-path {
+      fill: none;
+      stroke: url(#sig-gradient);
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 800;
+      animation: draw 3s ease-in-out forwards;
+    }
+    .dot {
+      fill: url(#sig-gradient);
+      opacity: 0;
+      animation: fadein 0.3s ease-in 2.8s forwards;
+    }
+    @keyframes fadein {
+      to { opacity: 1; }
+    }
+  </style>
+  <!-- "Mae" in flowing cursive -->
+  <path class="signature-path" d="
+    M 30,65
+    C 30,65 28,30 35,28
+    C 42,26 38,60 38,65
+    C 38,70 40,35 45,30
+    C 50,25 48,60 48,65
+    C 48,70 50,32 58,28
+    C 62,26 60,50 60,55
+    C 60,60 62,42 68,38
+    C 74,34 78,45 78,50
+    C 78,55 74,62 68,60
+    C 62,58 66,42 75,38
+    C 84,34 95,48 95,52
+  " />
+  <!-- connecting swash to "Kass" -->
+  <path class="signature-path" d="
+    M 95,52
+    C 100,55 105,50 110,42
+  " style="animation-delay: 0.3s;" />
+  <!-- "K" -->
+  <path class="signature-path" d="
+    M 115,28
+    C 115,28 113,65 115,68
+    M 115,48
+    C 118,46 128,28 132,28
+    M 115,48
+    C 118,50 126,65 130,68
+  " style="animation-delay: 0.5s;" />
+  <!-- "ass" in flowing cursive -->
+  <path class="signature-path" d="
+    M 133,50
+    C 133,42 138,38 143,38
+    C 148,38 150,42 148,48
+    C 146,54 140,58 138,60
+    C 136,62 138,65 142,62
+    C 146,59 148,55 150,48
+    C 152,41 155,38 160,38
+    C 165,38 165,44 162,48
+    C 159,52 155,54 155,56
+    C 155,58 158,58 162,55
+    C 166,52 168,48 170,42
+    C 172,36 175,38 178,38
+    C 181,38 181,44 178,48
+    C 175,52 172,54 172,56
+    C 172,58 175,58 179,55
+  " style="animation-delay: 0.8s;" />
+  <!-- elegant trailing flourish -->
+  <path class="signature-path" d="
+    M 179,55
+    C 185,50 195,42 210,40
+    C 225,38 240,44 245,50
+    C 250,56 240,62 225,58
+  " style="animation-delay: 1.2s;" />
+</svg>
