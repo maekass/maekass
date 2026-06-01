@@ -14,7 +14,7 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 
 <p align="center">
   <a href="https://github.com/maekass">
-    <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=22&duration=4000&pause=1200&color=A899B0&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=70&lines=investment+banking+%C2%B7+%242B%2B+AUM+public+equities+%C2%B7+early-stage+syndicator;10%2B+early-stage+co-investments+in+immuno-oncology%2C+precision+oncology+%26+women's+genomics;women's+health+%C2%B7+sport+science+%C2%B7+female+athletic+performance" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=22&duration=4000&pause=1200&color=A899B0&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=70&lines=investment+banking+%C2%B7+%242B%2B+AUM+public+equities+%C2%B7+early-stage+syndicator;10%2B+early-stage+co-investments+across+oncology%2C+genomics+%26+women's+health;where+finance%2C+science%2C+sport+%26+technology+converge" alt="Typing SVG" />
   </a>
 </p>
 
@@ -29,7 +29,7 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 </p>
 
 <p align="center">
-  <em>"The maternal mortality crisis isn't a data problem —<br>it's a visibility problem."</em>
+  <em>"The most interesting problems live where<br>finance, science, sport, and technology converge."</em>
 </p>
 
 <p align="center">
@@ -47,11 +47,11 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 
 I'm Mae — MPH and maternal mortality investigator. I come from institutional finance — investment banking and public equities ($2B+ AUM across domestic and emerging markets) — and now co-invest and syndicate early-stage in healthtech, with 10+ early-stage investments in immuno-oncology, precision oncology, and genomic solutions for women's health, particular to Black women.
 
-My focus is genetic predispositions and markers for epidemiologies, chronic illness, and underserved illness — shaped by loved ones' experiences, my own early-detection experience with ovarian cancer, parental cancer, and years of observing health inequity up close. I believe women's sports and movement are essential to understanding female health outcomes, and that the gap between how we train and treat female athletes and what the science actually supports is an investment opportunity, not just a research question.
+My focus spans genetic predispositions and markers for epidemiologies, chronic illness, and underserved illness — shaped by loved ones' experiences, my own early-detection experience with ovarian cancer, parental cancer, and years of observing health inequity up close. I also see women's sports and movement as a powerful, undervalued lens for understanding health outcomes — and an investment opportunity in its own right.
 
-I build tools that make healthcare M&A, health equity research, and female performance science more visual, more interactive, and more honest about what the data actually says. My work sits at the intersection of quantitative finance, network science, and women's health — spaces that don't often overlap, which is exactly why they should.
+I build tools that make healthcare M&A, health equity research, and emerging science more visual, more interactive, and more honest about what the data actually says. My work sits at the intersection of quantitative finance, network science, and women's health — spaces that don't often overlap, which is exactly why they should.
 
-I'm focused on making the investment case for avant-garde areas of medicine that affect people I love and those I have yet to meet. If you're building at the intersection of women's health, sport innovation, and ownership — I'd love to connect.
+I'm focused on making the investment case for avant-garde areas of medicine that affect people I love and those I have yet to meet. Whether that's FemTech, AI, venture capital, sport innovation, or maternal mortality research — I'd love to connect.
 
 </td></tr>
 </table>
@@ -131,12 +131,12 @@ I'm focused on making the investment case for avant-garde areas of medicine that
 <br>
 
 <p align="center">
-  <strong>Immuno-Oncology Investing</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Women's Sport &amp; Performance Science</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>M&A Intelligence</strong>
+  <strong>Health Equity</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Oncology &amp; Genomics</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Women's Sport</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>M&A Intelligence</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Applied AI</strong>
 </p>
 
 <p align="center">
-  <sub>precision oncology · women's genomics · female athletic performance · Black women's health<br>
-  sport ownership · maternal mortality · deal flow analytics · fairness audits</sub>
+  <sub>FemTech · precision oncology · women's genomics · female athletic performance · maternal mortality<br>
+  venture capital · sport ownership · deal flow analytics · Black women's health · fairness audits</sub>
 </p>
 
 <br>
