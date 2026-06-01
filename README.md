@@ -1,12 +1,12 @@
 <!--
-Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, early-stage co-investor, syndicator, healthtech, genetic predispositions, epidemiology, chronic illness, ovarian cancer, early detection, maternal mortality, immuno-oncology, precision oncology, genomic solutions, Black women's health, women's sports, female athletic performance, sports science, women's sport ownership, quantitative analysis, health equity, M&A intelligence, FemTech, machine learning, network visualization, social impact investing, AI fellowship, women's health, oncology, underserved illness, social health documentary, impact film, birth justice, portfolio
+Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, early-stage co-investor, syndicator, healthtech, quantitative finance, genetic predispositions, epidemiology, chronic illness, ovarian cancer, early detection, maternal mortality, immuno-oncology, precision oncology, genomic solutions, Black women's health, women's sports, female athletic performance, sports science, women's sport ownership, quantitative analysis, health equity, M&A intelligence, FemTech, machine learning, AI, network visualization, venture capital, AI fellowship, women's health, oncology, underserved illness, stochastic modeling, deal scoring, portfolio analytics, social health documentary, impact film, birth justice, portfolio
 -->
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- HEADER — animated wave gradient                            -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E0C8C4,25:D6CADD,50:C4B1C9,75:D6CADD,100:E0C8C4&height=200&section=header&text=Mae%20Kass&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=MPH%20%C2%B7%20early-stage%20co-investor%20%C2%B7%20builder&descSize=18&descColor=ffffff&descAlignY=55&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E0C8C4,25:D6CADD,50:C4B1C9,75:D6CADD,100:E0C8C4&height=200&section=header&text=Mae%20Kass&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=quantitative%20finance%20%C2%B7%20applied%20AI%20%C2%B7%20early-stage%20co-investor&descSize=18&descColor=ffffff&descAlignY=55&animation=fadeIn" width="100%" />
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!-- TYPING TAGLINE                                             -->
@@ -14,7 +14,7 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 
 <p align="center">
   <a href="https://github.com/maekass">
-    <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=22&duration=4000&pause=1200&color=A899B0&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=70&lines=investment+banking+%C2%B7+%242B%2B+AUM+public+equities+%C2%B7+early-stage+syndicator;10%2B+early-stage+co-investments+across+oncology%2C+genomics+%26+women's+health;where+finance%2C+science%2C+sport+%26+technology+converge" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=22&duration=4000&pause=1200&color=A899B0&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=70&lines=investment+banking+%C2%B7+%242B%2B+AUM+public+equities+%C2%B7+early-stage+syndicator;quantitative+finance+%C2%B7+applied+AI+%C2%B7+network+science;10%2B+early-stage+co-investments+across+oncology%2C+genomics+%26+female-specific+medicine" alt="Typing SVG" />
   </a>
 </p>
 
@@ -29,7 +29,7 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 </p>
 
 <p align="center">
-  <em>"The most consequential work lives where<br>finance, science, sport, and technology converge."</em>
+  <em>"Capital deployed with conviction is<br>the sharpest instrument of change."</em>
 </p>
 
 <p align="center">
@@ -45,13 +45,13 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 <table align="center" border="0" cellspacing="0" cellpadding="0">
 <tr><td width="600">
 
-I'm Mae — MPH, maternal mortality investigator, and early-stage co-investor. My career began in institutional finance — investment banking and public equities ($2B+ AUM, domestic and emerging markets) — and has since turned toward the work I find most urgent: deploying capital into female-specific medicine, with 10+ early-stage investments across immuno-oncology, precision oncology, and genomic solutions, particular to Black women.
+I'm Mae — quantitative finance professional, early-stage co-investor, and technologist. My career began in institutional finance — investment banking and public equities ($2B+ AUM, domestic and emerging markets) — and I now deploy capital and build software at the frontier of healthcare M&A, with 10+ early-stage investments across immuno-oncology, precision oncology, and genomic solutions in female-specific medicine, particular to Black women.
 
-I study genetic predispositions and markers for epidemiologies, chronic illness, and underserved disease — a focus shaped by lived experience: early detection of ovarian cancer, parental cancer, and years spent witnessing health inequity at close range.
+I hold an MPH and have investigated maternal mortality and genetic predispositions for epidemiologies, chronic illness, and underserved disease — a focus shaped by lived experience: early detection of ovarian cancer, parental cancer, and years spent observing health inequity at close range. This domain expertise informs every investment thesis I write and every tool I build.
 
-I also build. My tools bring healthcare M&A, health equity research, and emerging science into sharper view — more visual, more interactive, more honest about what the data reveals. The throughline is always the same: quantitative finance, network science, and women's health belong in the same room.
+On the technical side, I architect platforms that apply network science, ML-driven deal scoring, and stochastic modeling to healthcare dealflow — making opaque markets legible and quantifiable. The throughline across my work is applying rigorous quantitative and computational methods to sectors the market has historically undervalued.
 
-I am making the investment case for avant-garde areas of medicine that affect people I love and those I have yet to meet. Whether the path runs through female-specific medicine, applied AI, venture capital, sport innovation, or maternal mortality research — I welcome the conversation.
+I am making the investment case for avant-garde areas of medicine that affect people I love and those I have yet to meet. Whether the path runs through applied AI, venture capital, female-specific medicine, sport innovation, or maternal mortality research — I welcome the conversation.
 
 </td></tr>
 </table>
@@ -74,7 +74,7 @@ I am making the investment case for avant-garde areas of medicine that affect pe
 <td width="300" valign="top">
   <a href="https://github.com/maekass/Lacuna"><strong>Lacuna</strong></a><br>
   <sub>Next.js 16 · React 19 · D3.js · TensorFlow.js</sub><br><br>
-  M&A intelligence platform for female-specific medicine. Force-directed network graphs, exit pattern analytics, ML-driven deal scoring, and health equity audits. <br><br>
+  Quantitative M&A intelligence platform. Force-directed network graphs, exit pattern analytics, ML-driven deal scoring, and health equity audits — applied to female-specific medicine. <br><br>
   <a href="https://lacuna-maekass.vercel.app">
     <img src="https://img.shields.io/badge/live_demo-lacuna-C4B1C9?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" />
   </a>
@@ -90,7 +90,7 @@ I am making the investment case for avant-garde areas of medicine that affect pe
 <td width="300" valign="top">
   <a href="https://github.com/maekass/intergenerational-mobility-fund"><strong>Intergenerational Mobility Fund</strong></a><br>
   <sub>Python · Jupyter · Policy Analysis</sub><br><br>
-  $564M blended-finance vehicle. Granular market analysis across MA, DC, and VA with original financial models, policy frameworks, and a projected 11.4:1 social ROI.
+  $564M blended-finance vehicle with original financial models, policy analysis across MA, DC, and VA, and a projected 11.4:1 ROI. Quantitative structuring from first principles.
 </td>
 <td width="300" valign="top">
   <a href="https://github.com/maekass/montecarlosimulations"><strong>Monte Carlo Simulations</strong></a><br>
@@ -131,12 +131,12 @@ I am making the investment case for avant-garde areas of medicine that affect pe
 <br>
 
 <p align="center">
-  <strong>Health Equity</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Oncology &amp; Genomics for Black Women</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Women's Sport</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>M&A Intelligence</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Applied AI</strong>
+  <strong>Quantitative Finance</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Applied AI</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>M&A Intelligence</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Oncology &amp; Genomics for Black Women</strong>&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;<strong>Women's Sport</strong>
 </p>
 
 <p align="center">
-  <sub>female-specific medicine · precision oncology · women's genomics · female athletic performance · maternal mortality<br>
-  venture capital · sport ownership · social health documentary · Black women's health · impact film</sub>
+  <sub>deal scoring · network science · stochastic modeling · venture capital · precision oncology<br>
+  female-specific medicine · female athletic performance · maternal mortality · Black women's health</sub>
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
