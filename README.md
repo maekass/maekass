@@ -14,7 +14,7 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 
 <p align="center">
   <a href="https://github.com/maekass">
-    <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=22&duration=4000&pause=1200&color=A899B0&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=70&lines=investment+banking+%C2%B7+%242B%2B+AUM+public+equities+%C2%B7+early-stage+syndicator;quantitative+finance+%C2%B7+applied+AI+%C2%B7+network+science;10%2B+early-stage+co-investments+across+oncology%2C+genomics+%26+female-specific+medicine" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&weight=500&size=22&duration=4000&pause=1200&color=A899B0&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=70&lines=investment+banking+%C2%B7+%242B%2B+AUM+public+equities+%C2%B7+early-stage+syndicator;quantitative+finance+%C2%B7+applied+AI+%C2%B7+network+science;10%2B+early-stage+co-investments+across+oncology%2C+genomics+%26+female-specific+medicine" alt="Typing SVG" />
   </a>
 </p>
 
