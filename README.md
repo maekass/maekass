@@ -1,5 +1,5 @@
 <!--
-Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, early-stage co-investor, syndicator, healthtech, quantitative finance, genetic predispositions, epidemiology, chronic illness, ovarian cancer, early detection, maternal mortality, immuno-oncology, precision oncology, genomic solutions, Black women's health, women's sports, female athletic performance, sports science, women's sport ownership, quantitative analysis, M&A intelligence, FemTech, machine learning, AI, network visualization, venture capital, AI fellowship, women's health, oncology, stochastic modeling, deal scoring, portfolio analytics, documentary, portfolio
+Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, early-stage co-investor, healthtech, quantitative finance, ovarian cancer, early detection, maternal mortality, immuno-oncology, precision oncology, genomic solutions, women's sports, female athletic performance, sports science, quantitative analysis, M&A intelligence, machine learning, AI, network visualization, venture capital, women's health, oncology, stochastic modeling, deal scoring, portfolio analytics
 -->
 
 <!-- ═══════════════════════════════════════════════════════════ -->
@@ -30,9 +30,7 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
   <img src="./assets/ribbon.svg" width="15" />
 </p>
 
-<p align="center">
-  <em>"ACL tears, genetic markers, maternal mortality —<br>these are not soft issues. They are quantitatively investable."</em>
-</p>
+<h3 align="center"><em>"ACL tears, genetic markers, maternal mortality —<br>these are not soft issues. They are quantitatively investable."</em></h3>
 
 <p align="center">
   <picture>
@@ -48,15 +46,11 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 
 <p align="center">
 
-I'm Mae — quantitative finance professional, early-stage co-investor, and technologist. My career began in institutional finance — investment banking and public equities ($2B+ AUM, domestic and emerging markets) — and I now deploy capital and build software at the frontier of healthcare M&A, with 10+ early-stage investments across immuno-oncology, precision oncology, and genomic solutions in female-specific medicine, particular to Black women.
+The market has systematically underpriced woman-centric health. I deploy capital where that gap is widest — $2B+ AUM in institutional finance, now 10+ early-stage co-investments across immuno-oncology, precision oncology, and genomic solutions particular to Black women. I make that case in the language capital markets understand.
 
-My thesis is simple: the market has systematically underpriced woman-centric health. Genetic markers that predict disease in Black women, ACL biomechanics in female athletes, maternal mortality in the wealthiest country on earth — these are not soft issues. They are quantifiable, they are addressable, and they are investable. I make that case in the language capital markets understand.
+This focus was shaped by proximity: early detection of ovarian cancer, parental cancer, an MPH investigating maternal mortality and genetic predispositions. That lived expertise sharpens every investment thesis I write and every tool I build.
 
-I hold an MPH and have investigated maternal mortality and genetic predispositions for epidemiologies and chronic illness — a focus shaped by lived experience: early detection of ovarian cancer, parental cancer, and years spent in close proximity to these problems. This domain expertise sharpens every investment thesis I write and every tool I build.
-
-On the technical side, I architect platforms that apply network science, ML-driven deal scoring, and stochastic modeling to healthcare dealflow — making opaque markets legible and quantifiable.
-
-I am making the investment case for avant-garde areas of medicine that affect people I love and those I have yet to meet. Whether the path runs through applied AI, venture capital, female-specific medicine, sport innovation, or maternal mortality research — I welcome the conversation.
+I built <a href="https://github.com/maekass/Lacuna">Lacuna</a> — an M&A intelligence platform that maps acquirer-target networks, scores deal probability, and surfaces pricing anomalies across healthcare dealflow.
 
 </p>
 
@@ -105,19 +99,7 @@ I am making the investment case for avant-garde areas of medicine that affect pe
 </p>
 
 <p align="center">
-  <sub>deal scoring · network science · stochastic modeling · venture capital · precision oncology<br>
-  female-specific medicine · female athletic performance · maternal mortality · genomic solutions</sub>
-</p>
-
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!-- ALSO — editorial aside                                     -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
-<p align="center">
-  <sub><em>I also view women's sport and movement as a profoundly undervalued lens for understanding health outcomes —<br>
-  and a compelling investment thesis in its own right. Alongside my analytical work, I am committed to producing<br>
-  a finite amalgam of athletic and medical health stories, drawn from the tradition of Tonya Lewis Lee's</em> Aftershock<br>
-  <em>and the narrative craft of</em> <a href="https://impactpartnersfilm.com">Impact Partners</a>.</sub>
+  <sub><em>Women's sport: a profoundly undervalued lens for health outcomes — and a compelling investment thesis in its own right.</em></sub>
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
@@ -139,16 +121,6 @@ I am making the investment case for avant-garde areas of medicine that affect pe
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!-- CONNECT                                                    -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
-<p align="center">
-  <a href="https://github.com/maekass"><img src="https://img.shields.io/badge/GitHub-C4B1C9?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>&nbsp;&nbsp;
-  <a href="https://linkedin.com/in/maekass"><img src="https://img.shields.io/badge/LinkedIn-D6CADD?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;&nbsp;
-  <a href="https://lacuna-maekass.vercel.app"><img src="https://img.shields.io/badge/Lacuna_Demo-E0C8C4?style=for-the-badge&logo=vercel&logoColor=white" alt="Lacuna"></a>
-</p>
-
-<!-- ═══════════════════════════════════════════════════════════ -->
 <!-- SIGNATURE                                                  -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
@@ -157,21 +129,13 @@ I am making the investment case for avant-garde areas of medicine that affect pe
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!-- BUILT WITH                                                 -->
+<!-- CONNECT                                                    -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <sub>built with</sub><br>
-  <img src="https://img.shields.io/badge/Markdown-F0EEE9?style=flat-square&logo=markdown&logoColor=A899B0" alt="Markdown" />&nbsp;
-  <img src="https://img.shields.io/badge/HTML-F0EEE9?style=flat-square&logo=html5&logoColor=A899B0" alt="HTML" />&nbsp;
-  <img src="https://img.shields.io/badge/SVG-F0EEE9?style=flat-square&logo=svg&logoColor=A899B0" alt="SVG" />&nbsp;
-  <img src="https://img.shields.io/badge/GitHub_Actions-F0EEE9?style=flat-square&logo=githubactions&logoColor=A899B0" alt="GitHub Actions" />&nbsp;
-  <img src="https://img.shields.io/badge/Shields.io-F0EEE9?style=flat-square&logo=shieldsdotio&logoColor=A899B0" alt="Shields.io" />&nbsp;
-  <img src="https://img.shields.io/badge/Glassmorphism-F0EEE9?style=flat-square&logo=css3&logoColor=A899B0" alt="Glassmorphism" />
-</p>
-
-<p align="center">
-  <sub><em>2026 design: Bodoni Moda typography · neumorphic pearl accents · motion design · dark-mode aware · sustainable local SVGs</em></sub>
+  <a href="https://github.com/maekass"><img src="https://img.shields.io/badge/GitHub-C4B1C9?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>&nbsp;&nbsp;
+  <a href="https://linkedin.com/in/maekass"><img src="https://img.shields.io/badge/LinkedIn-D6CADD?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;&nbsp;
+  <a href="https://lacuna-maekass.vercel.app"><img src="https://img.shields.io/badge/Lacuna_Demo-E0C8C4?style=for-the-badge&logo=vercel&logoColor=white" alt="Lacuna"></a>
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
