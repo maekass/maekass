@@ -34,9 +34,9 @@ Keywords: Mae Kass, MPH, investment banking, public equities, emerging markets, 
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider.svg" />
-    <img alt="pearl divider" src="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider.svg" width="500" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/pearl-divider-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/pearl-divider.svg" />
+    <img alt="pearl divider" src="./assets/pearl-divider.svg" width="500" />
   </picture>
 </p>
 
@@ -88,9 +88,9 @@ I built <a href="https://github.com/maekass/Lacuna">Lacuna</a> — an M&A intell
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider.svg" />
-    <img alt="pearl divider" src="https://raw.githubusercontent.com/maekass/maekass/output/pearl-divider.svg" width="500" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/pearl-divider-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/pearl-divider.svg" />
+    <img alt="pearl divider" src="./assets/pearl-divider.svg" width="500" />
   </picture>
 </p>
 
